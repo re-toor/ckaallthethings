@@ -1,4 +1,4 @@
-# Sơ đồ tư duy CKA bằng tiếng Việt
+# CKA Study guide Vietnamese
 
 Bộ tài liệu ôn thi **Certified Kubernetes Administrator (CKA)** gồm sơ đồ tư duy tương tác, tài liệu lý thuyết, bài thực hành, hướng dẫn dựng cụm và PDF để đọc ngoại tuyến.
 
