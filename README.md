@@ -2,7 +2,7 @@
 
 Bộ tài liệu ôn thi **Certified Kubernetes Administrator (CKA)** gồm sơ đồ tư duy tương tác, tài liệu lý thuyết, bài thực hành, hướng dẫn dựng cụm và PDF để đọc ngoại tuyến.
 
-**Phiên bản mục tiêu: Kubernetes 1.35**, theo [môi trường thi CKA do Linux Foundation công bố](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks), kiểm tra ngày **17/09/2026**. Repo bám phiên bản thi; không phải tuyên bố về bản Kubernetes mới nhất. Trước ngày thi, kiểm tra lại thông tin của đơn vị tổ chức.
+**Phiên bản mục tiêu: Kubernetes 1.35**, theo [môi trường thi CKA do Linux Foundation công bố](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks), kiểm tra ngày **17/09/2026**. Repo bám phiên bản thi; không phải tài liệu về bản Kubernetes mới nhất.
 
 Đọc [các thay đổi cần biết cho CKA 1.35](guides/kubernetes-1.35-update.md) trước khi thực hành.
 
