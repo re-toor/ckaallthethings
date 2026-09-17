@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Sơ đồ tư duy CKA - Tài liệu ôn thi quản trị Kubernetes</title>
+  <meta name="description" content="Sơ đồ tư duy ôn thi CKA: kiến trúc cụm, workload, mạng, lưu trữ và xử lý sự cố.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=vi-1.35-20260917">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☸</text></svg>">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-left">
+      <a href="#main" class="logo">
+        <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="#326CE5" stroke-width="5"/>
+          <circle cx="50" cy="50" r="8" fill="#326CE5"/>
+          <line x1="50" y1="10" x2="50" y2="30" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="50" y1="70" x2="50" y2="90" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="12" y1="28" x2="30" y2="40" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="70" y1="60" x2="88" y2="72" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="12" y1="72" x2="30" y2="60" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="70" y1="40" x2="88" y2="28" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="50" cy="8" r="5" fill="#326CE5"/>
+          <circle cx="50" cy="92" r="5" fill="#326CE5"/>
+          <circle cx="10" cy="27" r="5" fill="#326CE5"/>
+          <circle cx="90" cy="73" r="5" fill="#326CE5"/>
+          <circle cx="10" cy="73" r="5" fill="#326CE5"/>
+          <circle cx="90" cy="27" r="5" fill="#326CE5"/>
+        </svg>
+        <span class="logo-text">Sơ đồ tư duy CKA</span>
+      </a>
+      <span class="logo-version">CKA v1.35 | Tiếng Việt</span>
+    </div>
+    <div class="header-right">
+      <nav id="breadcrumbs"></nav>
+      <a href="https://github.com/compufreq/cka-mindmap" target="_blank" rel="noopener noreferrer" class="github-link" title="Xem trên GitHub">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+      <div class="guides-dropdown" id="guides-dropdown">
+        <button class="guides-dropdown-btn" id="guides-dropdown-btn">
+          <span>Tài liệu ôn tập</span>
+          <span class="dropdown-arrow">&#9660;</span>
+        </button>
+        <div class="guides-dropdown-menu">
+          <a href="pages/guide.html?id=kubernetes-1.35"><span class="guide-icon">&#128214;</span><span class="guide-info"><span class="guide-name">Cập nhật CKA Kubernetes 1.35</span><span class="guide-desc">Phiên bản thi, thay đổi và bài thực hành</span></span></a>
+          <a href="pages/guide.html?id=kubernetes">
+            <span class="guide-icon">&#9784;</span>
+            <span class="guide-info">
+              <span class="guide-name">Tài liệu Kubernetes CKA</span>
+              <span class="guide-desc">Tài liệu kỹ thuật đầy đủ &bull; 30 chương</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=linux-networking">
+            <span class="guide-icon">&#128421;</span>
+            <span class="guide-info">
+              <span class="guide-name">Tài liệu mạng Linux</span>
+              <span class="guide-desc">Tra cứu lệnh mạng &bull; 56 mục</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=gateway-api">
+            <span class="guide-icon">&#128268;</span>
+            <span class="guide-info">
+              <span class="guide-name">Hướng dẫn đầy đủ Gateway API</span>
+              <span class="guide-desc">Quản lý lưu lượng vào cụm &bull; 20 mục</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=gateway-api-cka">
+            <span class="guide-icon">&#9997;</span>
+            <span class="guide-info">
+              <span class="guide-name">Thực hành Gateway API từng bước</span>
+              <span class="guide-desc">Thực hành từng bước &bull; 10 bài</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=ingress">
+            <span class="guide-icon">&#128295;</span>
+            <span class="guide-info">
+              <span class="guide-name">Hướng dẫn đầy đủ Ingress</span>
+              <span class="guide-desc">Định tuyến HTTP và kết thúc TLS &bull; 14 mục</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=ingress-cka">
+            <span class="guide-icon">&#9997;</span>
+            <span class="guide-info">
+              <span class="guide-name">Thực hành Ingress từng bước</span>
+              <span class="guide-desc">Thực hành từng bước</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=coredns">
+            <span class="guide-icon">&#127760;</span>
+            <span class="guide-info">
+              <span class="guide-name">Hướng dẫn đầy đủ CoreDNS</span>
+              <span class="guide-desc">DNS và khám phá dịch vụ &bull; 12 mục</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=coredns-cka">
+            <span class="guide-icon">&#9997;</span>
+            <span class="guide-info">
+              <span class="guide-name">Thực hành CoreDNS từng bước</span>
+              <span class="guide-desc">Thực hành từng bước</span>
+            </span>
+          </a>
+          <a href="pages/guide.html?id=k8s-install">
+            <span class="guide-icon">&#9881;</span>
+            <span class="guide-info">
+              <span class="guide-name">Lab Kubernetes nhiều control plane</span>
+              <span class="guide-desc">Lab HAProxy + 2 control plane + 2 worker</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="subtitle-bar">
+    <span id="subtitle"></span>
+  </div>
+
+  <main id="mindmap-container"></main>
+
+  <footer class="footer">
+    <div>Bộ tài liệu ôn thi CKA &bull; Theo đề cương CNCF &bull; Kubernetes v1.35 &bull;
+    Chọn nhánh để khám phá &bull; Chọn mục cuối để xem nội dung chi tiết</div>
+    <div class="footer-credit">Tài liệu cộng đồng, không phải tài liệu chính thức của CNCF/Linux Foundation &bull; Tác giả gốc: <strong>Compufreq</strong> &bull; 23/02/2026 &bull; Bản tiếng Việt cập nhật 17/09/2026</div>
+  </footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/data.js?v=vi-1.35-20260917"></script>
+  <script src="js/mindmap.js?v=vi-1.35-20260917"></script>
+  <script>
+    (function() {
+      var btn = document.getElementById('guides-dropdown-btn');
+      var dropdown = document.getElementById('guides-dropdown');
+      if (!btn || !dropdown) return;
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+      });
+      document.addEventListener('click', function() {
+        dropdown.classList.remove('open');
+      });
+    })();
+  </script>
+</body>
+</html>

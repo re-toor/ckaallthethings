@@ -1,0 +1,3703 @@
+{
+  "GUIDE_LINKS": {
+    "rbac": [
+      {
+        "title": "Chapter 15 — RBAC: Role-Based Access Control",
+        "url": "pages/guide.html?id=kubernetes#heading-192-chapter-15-rbac-role-based-access-control",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 16 — Security: Authentication, Pod Security & TLS",
+        "url": "pages/guide.html?id=kubernetes#heading-200-chapter-16-kubernetes-security-authentication-",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "kubeadm": [
+      {
+        "title": "Chapter 2 — Cluster Installation with kubeadm",
+        "url": "pages/guide.html?id=kubernetes#heading-43-chapter-2-cluster-installation-from-scratch-with",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "ha-control-plane": [
+      {
+        "title": "Chapter 3 — Highly-Available Control Plane Architecture",
+        "url": "pages/guide.html?id=kubernetes#heading-56-chapter-3-highly-available-control-plane-archite",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 1 — Kubernetes Architecture Overview",
+        "url": "pages/guide.html?id=kubernetes#heading-10-chapter-1-kubernetes-architecture-a-complete-ov",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "extension-interfaces": [
+      {
+        "title": "Chapter 4 — Extension Interfaces: CNI, CSI, and CRI",
+        "url": "pages/guide.html?id=kubernetes#heading-69-chapter-4-extension-interfaces-cni-csi-and-cr",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "crds-operators": [
+      {
+        "title": "Chapter 10 — Custom Resource Definitions and Operators",
+        "url": "pages/guide.html?id=kubernetes#heading-144-chapter-10-custom-resource-definitions-and-opera",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "helm-kustomize": [
+      {
+        "title": "Chapter 29 — kubectl Kustomize: Configuration at Scale",
+        "url": "pages/guide.html?id=kubernetes#heading-325-chapter-29-kubectl-kustomize-configuration-mana",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "cluster-lifecycle": [
+      {
+        "title": "Chapter 30 — CKA 2026: Complete Study & Command Reference",
+        "url": "pages/guide.html?id=kubernetes#heading-357-chapter-30-cka-certification-2026-complete-stud",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 2 — Cluster Installation with kubeadm",
+        "url": "pages/guide.html?id=kubernetes#heading-43-chapter-2-cluster-installation-from-scratch-with",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Chapter 5 — Understanding Pods and Containers",
+        "url": "pages/guide.html?id=kubernetes#heading-77-chapter-5-understanding-pods-and-containers",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 23 — Removing and Modifying Containers in Pods",
+        "url": "pages/guide.html?id=kubernetes#heading-265-chapter-23-removing-and-modifying-containers-in-",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "configmaps-secrets": [
+      {
+        "title": "Chapter 6 — ConfigMaps and Secrets: Complete Reference",
+        "url": "pages/guide.html?id=kubernetes#heading-96-chapter-6-configmaps-and-secrets-complete-refer",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "autoscaling": [
+      {
+        "title": "Chapter 8 — Workload Autoscaling with HPA and VPA",
+        "url": "pages/guide.html?id=kubernetes#heading-123-chapter-8-workload-autoscaling-with-hpa-and-vpa",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "self-healing": [
+      {
+        "title": "Chapter 9 — Self-Healing: Probes and PodDisruptionBudgets",
+        "url": "pages/guide.html?id=kubernetes#heading-136-chapter-9-self-healing-primitives-probes-and-po",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "pod-admission-scheduling": [
+      {
+        "title": "Chapter 1 — Kubernetes Architecture (Scheduler)",
+        "url": "pages/guide.html?id=kubernetes#heading-10-chapter-1-kubernetes-architecture-a-complete-ov",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 30 — CKA Complete Reference (Scheduling)",
+        "url": "pages/guide.html?id=kubernetes#heading-357-chapter-30-cka-certification-2026-complete-stud",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "pod-connectivity": [
+      {
+        "title": "Chapter 1 — Kubernetes Architecture & Network Model",
+        "url": "pages/guide.html?id=kubernetes#heading-10-chapter-1-kubernetes-architecture-a-complete-ov",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "ip — Network Interface, Routing & Tunnel Management",
+        "url": "pages/guide.html?id=linux-networking#heading-2-1-ip-network-interface-routing-tunnel-manage",
+        "guide": "Linux Networking Guide"
+      }
+    ],
+    "service-types": [
+      {
+        "title": "Chapter 12 — Kubernetes Services: ClusterIP, NodePort & More",
+        "url": "pages/guide.html?id=kubernetes#heading-158-chapter-12-kubernetes-services-clusterip-nodep",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "ss — Socket Statistics",
+        "url": "pages/guide.html?id=linux-networking#heading-47-6-ss-socket-statistics",
+        "guide": "Linux Networking Guide"
+      }
+    ],
+    "gateway-api": [
+      {
+        "title": "Chapter 11 — Gateway API: Modern Ingress Management",
+        "url": "pages/guide.html?id=kubernetes#heading-148-chapter-11-gateway-api-modern-ingress-traffic-m",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Gateway API Complete Guide",
+        "url": "pages/guide.html?id=gateway-api",
+        "guide": "Gateway API Guide"
+      },
+      {
+        "title": "Gateway API CKA Step-by-Step Guide",
+        "url": "pages/guide.html?id=gateway-api-cka",
+        "guide": "Gateway API Step-By-Step Guide"
+      }
+    ],
+    "ingress": [
+      {
+        "title": "Chapter 13 — Ingress: HTTP Routing and TLS Termination",
+        "url": "pages/guide.html?id=kubernetes#heading-169-chapter-13-ingress-http-routing-and-tls-termina",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Ingress Complete Guide",
+        "url": "pages/guide.html?id=ingress",
+        "guide": "Ingress Guide"
+      },
+      {
+        "title": "Ingress CKA Step-by-Step Guide",
+        "url": "pages/guide.html?id=ingress-cka",
+        "guide": "Ingress Step-By-Step Guide"
+      },
+      {
+        "title": "curl — Data Transfer Tool",
+        "url": "pages/guide.html?id=linux-networking#heading-57-8-curl-data-transfer-tool",
+        "guide": "Linux Networking Guide"
+      }
+    ],
+    "network-policies": [
+      {
+        "title": "Chapter 14 — NetworkPolicy: Traffic Control",
+        "url": "pages/guide.html?id=kubernetes#heading-179-chapter-14-networkpolicy-traffic-control-and-mi",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "iptables — Firewall (Netfilter)",
+        "url": "pages/guide.html?id=linux-networking#heading-121-15-iptables-firewall-netfilter",
+        "guide": "Linux Networking Guide"
+      }
+    ],
+    "coredns": [
+      {
+        "title": "Chapter 26 — CoreDNS: Testing, Diagnosing & Verifying DNS",
+        "url": "pages/guide.html?id=kubernetes#heading-295-chapter-26-coredns-testing-diagnosing-and-ver",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "CoreDNS Complete Guide",
+        "url": "pages/guide.html?id=coredns",
+        "guide": "CoreDNS Guide"
+      },
+      {
+        "title": "CoreDNS CKA Step-by-Step Guide",
+        "url": "pages/guide.html?id=coredns-cka",
+        "guide": "CoreDNS Step-By-Step Guide"
+      },
+      {
+        "title": "dig — DNS Lookup Utility",
+        "url": "pages/guide.html?id=linux-networking#heading-80-10-dig-dns-lookup-utility",
+        "guide": "Linux Networking Guide"
+      },
+      {
+        "title": "nslookup — DNS Query Tool",
+        "url": "pages/guide.html?id=linux-networking#heading-86-11-nslookup-dns-query-tool",
+        "guide": "Linux Networking Guide"
+      }
+    ],
+    "storage-classes": [
+      {
+        "title": "Chapter 7 — StorageClasses and Dynamic Volume Provisioning",
+        "url": "pages/guide.html?id=kubernetes#heading-112-chapter-7-storageclasses-and-dynamic-volume-prov",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "volume-types": [
+      {
+        "title": "Chapter 7 — StorageClasses and Dynamic Volume Provisioning",
+        "url": "pages/guide.html?id=kubernetes#heading-112-chapter-7-storageclasses-and-dynamic-volume-prov",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "persistent-volumes": [
+      {
+        "title": "Chapter 7 — StorageClasses and Dynamic Volume Provisioning",
+        "url": "pages/guide.html?id=kubernetes#heading-112-chapter-7-storageclasses-and-dynamic-volume-prov",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "cluster-node-troubleshooting": [
+      {
+        "title": "Chapter 1 — Kubernetes Architecture (Troubleshooting)",
+        "url": "pages/guide.html?id=kubernetes#heading-10-chapter-1-kubernetes-architecture-a-complete-ov",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "ping — ICMP Connectivity Testing",
+        "url": "pages/guide.html?id=linux-networking#heading-31-2-ping-icmp-connectivity-testing",
+        "guide": "Linux Networking Guide"
+      },
+      {
+        "title": "ss — Socket Statistics",
+        "url": "pages/guide.html?id=linux-networking#heading-47-6-ss-socket-statistics",
+        "guide": "Linux Networking Guide"
+      }
+    ],
+    "cluster-components": [
+      {
+        "title": "Chapter 1 — Kubernetes Architecture Overview",
+        "url": "pages/guide.html?id=kubernetes#heading-10-chapter-1-kubernetes-architecture-a-complete-ov",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 30 — CKA Complete Study & Command Reference",
+        "url": "pages/guide.html?id=kubernetes#heading-357-chapter-30-cka-certification-2026-complete-stud",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "monitoring": [
+      {
+        "title": "Chapter 22 — Resource Monitoring Inside Containers",
+        "url": "pages/guide.html?id=kubernetes#heading-257-chapter-22-resource-monitoring-inside-containers",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "container-logs": [
+      {
+        "title": "Chapter 18 — Viewing and Streaming Container Logs",
+        "url": "pages/guide.html?id=kubernetes#heading-218-chapter-18-viewing-and-streaming-container-logs",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 17 — Executing Commands Inside Containers",
+        "url": "pages/guide.html?id=kubernetes#heading-208-chapter-17-executing-commands-inside-containers",
+        "guide": "Kubernetes Guide"
+      }
+    ],
+    "network-troubleshooting": [
+      {
+        "title": "Chapter 25 — Network Testing from Ephemeral Containers",
+        "url": "pages/guide.html?id=kubernetes#heading-288-chapter-25-network-testing-from-ephemeral-contai",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "Chapter 26 — CoreDNS: Testing & Diagnosing DNS",
+        "url": "pages/guide.html?id=kubernetes#heading-295-chapter-26-coredns-testing-diagnosing-and-ver",
+        "guide": "Kubernetes Guide"
+      },
+      {
+        "title": "CoreDNS Step-By-Step Guide — Debug DNS Issues",
+        "url": "pages/guide.html?id=coredns-cka#heading-19-task-06-debug-coredns-pods-crashing",
+        "guide": "CoreDNS Step-By-Step Guide"
+      },
+      {
+        "title": "Ingress Step-By-Step Guide — Debug a Broken Ingress",
+        "url": "pages/guide.html?id=ingress-cka#heading-22-task-7-debug-a-broken-ingress",
+        "guide": "Ingress Step-By-Step Guide"
+      },
+      {
+        "title": "traceroute — Trace the Route to a Host",
+        "url": "pages/guide.html?id=linux-networking#heading-35-3-traceroute-trace-the-route-to-a-host",
+        "guide": "Linux Networking Guide"
+      },
+      {
+        "title": "tcpdump — Packet Capture & Analysis",
+        "url": "pages/guide.html?id=linux-networking#heading-109-14-tcpdump-packet-capture-analysis",
+        "guide": "Linux Networking Guide"
+      }
+    ]
+  },
+  "DOMAIN_COLORS": {
+    "cluster-architecture": "#4CAF50",
+    "workloads-scheduling": "#FF9800",
+    "services-networking": "#2196F3",
+    "storage": "#9C27B0",
+    "troubleshooting": "#F44336"
+  },
+  "MIND_MAP_DATA": {
+    "main": {
+      "title": "CKA Certification Study Summary",
+      "subtitle": "Certified Kubernetes Administrator | Kubernetes v1.34 | 2025-2026",
+      "parent": null,
+      "parentTitle": null,
+      "nodes": [
+        {
+          "id": "cluster-architecture",
+          "name": "Cluster Architecture,\nInstallation &\nConfiguration",
+          "weight": "25%",
+          "color": "#4CAF50",
+          "icon": "🏗"
+        },
+        {
+          "id": "workloads-scheduling",
+          "name": "Workloads &\nScheduling",
+          "weight": "15%",
+          "color": "#FF9800",
+          "icon": "⚙"
+        },
+        {
+          "id": "services-networking",
+          "name": "Services &\nNetworking",
+          "weight": "20%",
+          "color": "#2196F3",
+          "icon": "🌐"
+        },
+        {
+          "id": "storage",
+          "name": "Storage",
+          "weight": "10%",
+          "color": "#9C27B0",
+          "icon": "💾"
+        },
+        {
+          "id": "troubleshooting",
+          "name": "Troubleshooting",
+          "weight": "30%",
+          "color": "#F44336",
+          "icon": "🔧"
+        }
+      ]
+    },
+    "cluster-architecture": {
+      "title": "Cluster Architecture, Installation & Configuration",
+      "subtitle": "25% of Exam Weight",
+      "parent": "main",
+      "parentTitle": "CKA",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "id": "rbac",
+          "name": "RBAC",
+          "description": "Role-Based Access Control"
+        },
+        {
+          "id": "kubeadm",
+          "name": "Kubeadm",
+          "description": "Cluster Bootstrap & Management"
+        },
+        {
+          "id": "ha-control-plane",
+          "name": "HA Control\nPlanes",
+          "description": "Highly Available Control Planes"
+        },
+        {
+          "id": "extension-interfaces",
+          "name": "Extension\nInterfaces",
+          "description": "CNI, CSI, CRI"
+        },
+        {
+          "id": "crds-operators",
+          "name": "CRDs &\nOperators",
+          "description": "Custom Resource Definitions"
+        },
+        {
+          "id": "helm-kustomize",
+          "name": "Helm &\nKustomize",
+          "description": "Package & Config Management"
+        },
+        {
+          "id": "cluster-lifecycle",
+          "name": "Cluster\nLifecycle",
+          "description": "Upgrades, Backup & Restore"
+        }
+      ]
+    },
+    "workloads-scheduling": {
+      "title": "Workloads & Scheduling",
+      "subtitle": "15% of Exam Weight",
+      "parent": "main",
+      "parentTitle": "CKA",
+      "domainColor": "#FF9800",
+      "nodes": [
+        {
+          "id": "deployments",
+          "name": "Deployments",
+          "description": "Rolling Updates & Rollbacks"
+        },
+        {
+          "id": "configmaps-secrets",
+          "name": "ConfigMaps\n& Secrets",
+          "description": "Application Configuration"
+        },
+        {
+          "id": "autoscaling",
+          "name": "Workload\nAutoscaling",
+          "description": "HPA, VPA & Metrics"
+        },
+        {
+          "id": "self-healing",
+          "name": "Self-Healing\nDeployments",
+          "description": "ReplicaSets, DaemonSets, StatefulSets"
+        },
+        {
+          "id": "pod-admission-scheduling",
+          "name": "Pod Admission\n& Scheduling",
+          "description": "Affinity, Taints & Tolerations"
+        }
+      ]
+    },
+    "services-networking": {
+      "title": "Services & Networking",
+      "subtitle": "20% of Exam Weight",
+      "parent": "main",
+      "parentTitle": "CKA",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "id": "pod-connectivity",
+          "name": "Pod-to-Pod\nConnectivity",
+          "description": "Pod Networking Model"
+        },
+        {
+          "id": "service-types",
+          "name": "Service\nTypes",
+          "description": "ClusterIP, NodePort, LoadBalancer"
+        },
+        {
+          "id": "gateway-api",
+          "name": "Gateway\nAPI",
+          "description": "Modern Ingress Management"
+        },
+        {
+          "id": "ingress",
+          "name": "Ingress",
+          "description": "Controllers & Resources"
+        },
+        {
+          "id": "network-policies",
+          "name": "Network\nPolicies",
+          "description": "Traffic Control & Security"
+        },
+        {
+          "id": "coredns",
+          "name": "CoreDNS",
+          "description": "DNS & Service Discovery"
+        }
+      ]
+    },
+    "storage": {
+      "title": "Storage",
+      "subtitle": "10% of Exam Weight",
+      "parent": "main",
+      "parentTitle": "CKA",
+      "domainColor": "#9C27B0",
+      "nodes": [
+        {
+          "id": "storage-classes",
+          "name": "StorageClasses\n& Dynamic\nProvisioning",
+          "description": "Automatic Volume Provisioning"
+        },
+        {
+          "id": "volume-types",
+          "name": "Volume Types\n& Access Modes",
+          "description": "RWO, ROX, RWX & Volume Plugins"
+        },
+        {
+          "id": "persistent-volumes",
+          "name": "Persistent\nVolumes &\nClaims",
+          "description": "PV/PVC Lifecycle & Reclaim Policies"
+        }
+      ]
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "subtitle": "30% of Exam Weight (Highest!)",
+      "parent": "main",
+      "parentTitle": "CKA",
+      "domainColor": "#F44336",
+      "nodes": [
+        {
+          "id": "cluster-node-troubleshooting",
+          "name": "Cluster & Node\nTroubleshooting",
+          "description": "Kubelet, Kube-proxy & Nodes"
+        },
+        {
+          "id": "cluster-components",
+          "name": "Cluster\nComponents",
+          "description": "API Server, Scheduler, etcd"
+        },
+        {
+          "id": "monitoring",
+          "name": "Monitoring &\nResource Usage",
+          "description": "Metrics Server & kubectl top"
+        },
+        {
+          "id": "container-logs",
+          "name": "Container\nOutput Streams",
+          "description": "Logs, stdout & stderr"
+        },
+        {
+          "id": "network-troubleshooting",
+          "name": "Services &\nNetwork\nTroubleshooting",
+          "description": "DNS, Service & Connectivity"
+        }
+      ]
+    },
+    "rbac": {
+      "title": "Role-Based Access Control (RBAC)",
+      "subtitle": "Cluster Architecture > RBAC",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "Roles",
+          "description": "Namespace-scoped permission sets",
+          "keyPoints": [
+            "Define permissions within a specific namespace",
+            "Contain rules with apiGroups, resources, and verbs",
+            "Verbs: get, list, watch, create, update, patch, delete",
+            "Cannot grant access to cluster-scoped resources"
+          ],
+          "commands": [
+            "kubectl create role pod-reader --verb=get,list,watch --resource=pods -n <namespace>",
+            "kubectl get roles -n <namespace>",
+            "kubectl get roles -A",
+            "kubectl describe role <role-name> -n <namespace>",
+            "kubectl get role <role-name> -n <namespace> -o yaml",
+            "kubectl edit role <role-name> -n <namespace>",
+            "kubectl delete role <role-name> -n <namespace>",
+            "kubectl create role secret-admin --verb=get,list,create,delete --resource=secrets -n <namespace>",
+            "kubectl explain role.rules"
+          ],
+          "references": [
+            {
+              "title": "Using RBAC Authorization",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/"
+            },
+            {
+              "title": "Role Example",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-example"
+            }
+          ]
+        },
+        {
+          "name": "ClusterRoles",
+          "description": "Cluster-wide permission sets",
+          "keyPoints": [
+            "Non-namespaced: apply across entire cluster",
+            "Can grant access to cluster-scoped resources (nodes, PVs)",
+            "Can grant access to non-resource endpoints (/healthz)",
+            "Can be used with ClusterRoleBindings or RoleBindings"
+          ],
+          "commands": [
+            "kubectl create clusterrole node-reader --verb=get,list,watch --resource=nodes",
+            "kubectl get clusterroles",
+            "kubectl describe clusterrole <name>",
+            "kubectl get clusterrole <name> -o yaml",
+            "kubectl edit clusterrole <name>",
+            "kubectl delete clusterrole <name>",
+            "kubectl create clusterrole pv-reader --verb=get,list,watch --resource=persistentvolumes",
+            "kubectl explain clusterrole.rules",
+            "kubectl get clusterroles --no-headers | wc -l"
+          ],
+          "references": [
+            {
+              "title": "Using RBAC Authorization",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/"
+            },
+            {
+              "title": "ClusterRole Example",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#clusterrole-example"
+            }
+          ]
+        },
+        {
+          "name": "RoleBindings",
+          "description": "Bind Roles to subjects in a namespace",
+          "keyPoints": [
+            "Grant permissions defined in a Role to users/groups/ServiceAccounts",
+            "Scoped to a specific namespace",
+            "Can reference a ClusterRole (permissions limited to RoleBinding's namespace)",
+            "Subjects: User, Group, ServiceAccount"
+          ],
+          "commands": [
+            "kubectl create rolebinding pod-reader-binding --role=pod-reader --user=jane -n default",
+            "kubectl create rolebinding sa-binding --role=pod-reader --serviceaccount=default:my-sa -n <namespace>",
+            "kubectl get rolebindings -n <namespace>",
+            "kubectl get rolebindings -A",
+            "kubectl describe rolebinding <name> -n <namespace>",
+            "kubectl get rolebinding <name> -n <namespace> -o yaml",
+            "kubectl delete rolebinding <name> -n <namespace>",
+            "kubectl auth can-i list pods --as=jane -n default",
+            "kubectl create rolebinding admin-binding --clusterrole=admin --user=jane -n <namespace>"
+          ],
+          "references": [
+            {
+              "title": "RoleBinding and ClusterRoleBinding",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding"
+            }
+          ]
+        },
+        {
+          "name": "ClusterRole\nBindings",
+          "description": "Bind ClusterRoles cluster-wide",
+          "keyPoints": [
+            "Grant cluster-wide permissions to subjects",
+            "Cannot reference a Role (only ClusterRole)",
+            "Affects all namespaces",
+            "Use carefully - grants broad access"
+          ],
+          "commands": [
+            "kubectl create clusterrolebinding admin-binding --clusterrole=cluster-admin --user=admin",
+            "kubectl create clusterrolebinding sa-crb --clusterrole=view --serviceaccount=<namespace>:<sa-name>",
+            "kubectl get clusterrolebindings",
+            "kubectl describe clusterrolebinding <name>",
+            "kubectl get clusterrolebinding <name> -o yaml",
+            "kubectl delete clusterrolebinding <name>",
+            "kubectl auth can-i list nodes --as=admin",
+            "kubectl get clusterrolebindings -o jsonpath='{range .items[?(@.roleRef.name==\"cluster-admin\")]}{.metadata.name}{\"\\n\"}{end}'"
+          ],
+          "references": [
+            {
+              "title": "RoleBinding and ClusterRoleBinding",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding"
+            }
+          ]
+        },
+        {
+          "name": "Service\nAccounts",
+          "description": "Identity for processes in pods",
+          "keyPoints": [
+            "Every namespace has a 'default' ServiceAccount",
+            "Pods use ServiceAccounts to authenticate to the API server",
+            "Tokens are automatically mounted at /var/run/secrets/kubernetes.io/serviceaccount",
+            "Can be assigned Roles/ClusterRoles via bindings",
+            "Kubernetes 1.24+: tokens are no longer auto-created as Secrets"
+          ],
+          "commands": [
+            "kubectl create serviceaccount my-sa -n default",
+            "kubectl get serviceaccounts -n <namespace>",
+            "kubectl get serviceaccounts -A",
+            "kubectl describe serviceaccount my-sa -n <namespace>",
+            "kubectl get serviceaccount my-sa -o yaml",
+            "kubectl delete serviceaccount my-sa -n <namespace>",
+            "kubectl set serviceaccount deployment/my-app my-sa",
+            "kubectl create token my-sa -n <namespace>",
+            "kubectl auth can-i list pods --as=system:serviceaccount:<namespace>:my-sa"
+          ],
+          "references": [
+            {
+              "title": "Service Accounts",
+              "url": "https://kubernetes.io/docs/concepts/security/service-accounts/"
+            },
+            {
+              "title": "Configure Service Accounts for Pods",
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/"
+            }
+          ]
+        },
+        {
+          "name": "Auth\nVerification",
+          "description": "Testing and verifying access",
+          "keyPoints": [
+            "Use 'kubectl auth can-i' to verify permissions",
+            "Check as a specific user or ServiceAccount",
+            "Impersonation for testing access",
+            "Audit logs track API access",
+            "'kubectl auth whoami' shows current identity (v1.27+)"
+          ],
+          "commands": [
+            "kubectl auth can-i create pods --as=system:serviceaccount:default:my-sa",
+            "kubectl auth can-i get pods --as=jane -n <namespace>",
+            "kubectl auth can-i '*' '*' --all-namespaces",
+            "kubectl auth can-i list deployments --as=system:serviceaccount:<namespace>:<sa-name>",
+            "kubectl auth whoami",
+            "kubectl auth can-i --list --as=jane -n <namespace>",
+            "kubectl auth can-i delete nodes --as=admin",
+            "kubectl get pods --as=jane -n <namespace>"
+          ],
+          "references": [
+            {
+              "title": "Checking API Access",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/authorization/#checking-api-access"
+            },
+            {
+              "title": "Authorization Overview",
+              "url": "https://kubernetes.io/docs/reference/access-authn-authz/authorization/"
+            }
+          ]
+        }
+      ]
+    },
+    "kubeadm": {
+      "title": "Kubeadm - Cluster Bootstrap",
+      "subtitle": "Cluster Architecture > Kubeadm",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "kubeadm init",
+          "description": "Initialize a control plane node",
+          "keyPoints": [
+            "Bootstraps the Kubernetes control plane",
+            "Generates certificates and kubeconfig files",
+            "Deploys kube-apiserver, kube-controller-manager, kube-scheduler as static pods",
+            "Outputs a join command for worker nodes",
+            "Preflight checks validate system requirements"
+          ],
+          "commands": [
+            "kubeadm init --pod-network-cidr=10.244.0.0/16",
+            "kubeadm init --config kubeadm-config.yaml",
+            "kubeadm init --control-plane-endpoint=<load-balancer>:6443 --upload-certs",
+            "kubeadm init --apiserver-advertise-address=<ip> --pod-network-cidr=10.244.0.0/16",
+            "kubeadm init --dry-run",
+            "kubeadm init phase preflight",
+            "mkdir -p $HOME/.kube && cp -i /etc/kubernetes/admin.conf $HOME/.kube/config && chown $(id -u):$(id -g) $HOME/.kube/config",
+            "kubeadm init --skip-phases=addon/kube-proxy"
+          ],
+          "references": [
+            {
+              "title": "kubeadm init",
+              "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-init/"
+            },
+            {
+              "title": "Creating a Cluster with kubeadm",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/"
+            }
+          ]
+        },
+        {
+          "name": "kubeadm join",
+          "description": "Join nodes to the cluster",
+          "keyPoints": [
+            "Adds worker nodes or additional control plane nodes",
+            "Requires a token and CA cert hash from 'kubeadm init'",
+            "For control plane: use --control-plane flag",
+            "Token expires after 24 hours by default"
+          ],
+          "commands": [
+            "kubeadm join <api-server>:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash>",
+            "kubeadm join <api-server>:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash> --control-plane --certificate-key <key>",
+            "kubeadm token create --print-join-command",
+            "kubeadm join --config join-config.yaml",
+            "kubeadm join --dry-run <api-server>:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash>",
+            "kubeadm join phase preflight <api-server>:6443 --token <token>",
+            "kubectl get nodes (verify node joined)"
+          ],
+          "references": [
+            {
+              "title": "kubeadm join",
+              "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-join/"
+            }
+          ]
+        },
+        {
+          "name": "kubeadm\nupgrade",
+          "description": "Upgrade cluster version",
+          "keyPoints": [
+            "Upgrade one minor version at a time",
+            "Upgrade control plane first, then workers",
+            "Drain nodes before upgrading kubelet",
+            "Check upgrade plan before applying"
+          ],
+          "commands": [
+            "kubeadm upgrade plan",
+            "kubeadm upgrade apply v1.34.0",
+            "kubeadm upgrade apply v1.34.0 --dry-run",
+            "kubeadm upgrade node",
+            "kubeadm upgrade diff v1.34.0",
+            "kubectl drain <node> --ignore-daemonsets --delete-emptydir-data",
+            "apt-get update && apt-get install -y kubelet=1.34.0-* kubectl=1.34.0-*",
+            "systemctl daemon-reload && systemctl restart kubelet",
+            "kubectl uncordon <node>"
+          ],
+          "references": [
+            {
+              "title": "kubeadm upgrade",
+              "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/"
+            },
+            {
+              "title": "Upgrading kubeadm clusters",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/"
+            }
+          ]
+        },
+        {
+          "name": "kubeadm\nconfig",
+          "description": "Configuration management",
+          "keyPoints": [
+            "Use ClusterConfiguration for init settings",
+            "InitConfiguration for node-specific settings",
+            "KubeletConfiguration for kubelet settings",
+            "Print default config for reference"
+          ],
+          "commands": [
+            "kubeadm config print init-defaults",
+            "kubeadm config print join-defaults",
+            "kubeadm config images list",
+            "kubeadm config images pull",
+            "kubeadm config images list --kubernetes-version=v1.34.0",
+            "kubeadm config validate --config kubeadm-config.yaml",
+            "kubeadm config migrate --old-config old-config.yaml --new-config new-config.yaml",
+            "kubectl get configmap kubeadm-config -n kube-system -o yaml"
+          ],
+          "references": [
+            {
+              "title": "kubeadm config",
+              "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-config/"
+            }
+          ]
+        },
+        {
+          "name": "kubeadm\ntokens",
+          "description": "Token management",
+          "keyPoints": [
+            "Bootstrap tokens for node joining",
+            "Default TTL is 24 hours",
+            "Can create new tokens after init",
+            "Tokens stored as secrets in kube-system namespace"
+          ],
+          "commands": [
+            "kubeadm token list",
+            "kubeadm token create",
+            "kubeadm token create --ttl 2h --print-join-command",
+            "kubeadm token create --ttl 0 (never expires)",
+            "kubeadm token delete <token>",
+            "kubeadm token generate",
+            "openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der 2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'",
+            "kubectl get secrets -n kube-system | grep bootstrap-token"
+          ],
+          "references": [
+            {
+              "title": "kubeadm token",
+              "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-token/"
+            }
+          ]
+        },
+        {
+          "name": "kubeadm\nreset",
+          "description": "Revert kubeadm actions",
+          "keyPoints": [
+            "Cleans up files and resources created by init/join",
+            "Removes etcd data directory",
+            "Does NOT reset iptables rules or IPVS tables",
+            "Manual cleanup may still be required"
+          ],
+          "commands": [
+            "kubeadm reset",
+            "kubeadm reset --force",
+            "kubeadm reset --cert-dir /etc/kubernetes/pki",
+            "iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X",
+            "ipvsadm --clear",
+            "rm -rf $HOME/.kube/config",
+            "rm -rf /etc/cni/net.d"
+          ],
+          "references": [
+            {
+              "title": "kubeadm reset",
+              "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-reset/"
+            }
+          ]
+        }
+      ]
+    },
+    "ha-control-plane": {
+      "title": "Highly Available Control Planes",
+      "subtitle": "Cluster Architecture > HA Control Planes",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "Stacked etcd\nTopology",
+          "description": "etcd co-located with control plane",
+          "keyPoints": [
+            "etcd runs on the same nodes as control plane components",
+            "Simpler to set up and manage",
+            "Requires fewer servers (minimum 3 nodes)",
+            "Risk: losing a node loses both a control plane and an etcd member"
+          ],
+          "commands": [
+            "kubeadm init --control-plane-endpoint=<lb>:6443 --upload-certs",
+            "kubeadm join <lb>:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash> --control-plane --certificate-key <key>",
+            "kubectl get nodes -o wide",
+            "kubectl get pods -n kube-system -l component=etcd",
+            "ETCDCTL_API=3 etcdctl member list --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "kubectl get endpoints -n default kubernetes"
+          ],
+          "references": [
+            {
+              "title": "HA Topology Options",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/ha-topology/"
+            },
+            {
+              "title": "Creating HA Clusters with kubeadm",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/"
+            }
+          ]
+        },
+        {
+          "name": "External etcd\nTopology",
+          "description": "etcd on dedicated nodes",
+          "keyPoints": [
+            "etcd runs on separate dedicated hosts",
+            "More resilient: control plane failure doesn't affect etcd",
+            "Requires more infrastructure (min 3 etcd + 3 control plane)",
+            "Better for large production environments"
+          ],
+          "commands": [
+            "kubeadm init --config=kubeadm-config.yaml (with external etcd endpoints)",
+            "ETCDCTL_API=3 etcdctl endpoint health --endpoints=https://<etcd1>:2379,https://<etcd2>:2379,https://<etcd3>:2379 --cacert=/etc/etcd/ca.crt --cert=/etc/etcd/server.crt --key=/etc/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl endpoint status --endpoints=https://<etcd1>:2379,https://<etcd2>:2379 --cacert=/etc/etcd/ca.crt --cert=/etc/etcd/server.crt --key=/etc/etcd/server.key -w table",
+            "ETCDCTL_API=3 etcdctl member list --endpoints=https://<etcd1>:2379 --cacert=/etc/etcd/ca.crt --cert=/etc/etcd/server.crt --key=/etc/etcd/server.key",
+            "systemctl status etcd",
+            "journalctl -u etcd -f"
+          ],
+          "references": [
+            {
+              "title": "HA Topology Options",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/ha-topology/"
+            },
+            {
+              "title": "Set up etcd Cluster",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm/"
+            }
+          ]
+        },
+        {
+          "name": "Load\nBalancer",
+          "description": "API server load balancing",
+          "keyPoints": [
+            "Required for HA: distributes traffic across API servers",
+            "Can use HAProxy, Nginx, or cloud load balancers",
+            "Health checks on kube-apiserver port 6443",
+            "The --control-plane-endpoint must point to the LB"
+          ],
+          "commands": [
+            "kubeadm init --control-plane-endpoint=<load-balancer-dns>:6443",
+            "curl -k https://<load-balancer-dns>:6443/healthz",
+            "kubectl get endpoints kubernetes",
+            "kubectl cluster-info",
+            "kubectl get nodes -o wide",
+            "nc -zv <load-balancer-dns> 6443"
+          ],
+          "references": [
+            {
+              "title": "Creating HA Clusters",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/"
+            }
+          ]
+        },
+        {
+          "name": "etcd Backup\n& Restore",
+          "description": "Data protection for etcd",
+          "keyPoints": [
+            "etcd stores all cluster state",
+            "Use etcdctl for backup and restore",
+            "Snapshot the etcd data directory",
+            "Restore creates a new etcd data directory",
+            "Always test restores in a non-production environment"
+          ],
+          "commands": [
+            "ETCDCTL_API=3 etcdctl snapshot save /tmp/backup.db --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl snapshot restore /tmp/backup.db --data-dir=/var/lib/etcd-backup",
+            "ETCDCTL_API=3 etcdctl snapshot status /tmp/backup.db -w table",
+            "ETCDCTL_API=3 etcdctl endpoint health --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl member list --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl snapshot restore /tmp/backup.db --data-dir=/var/lib/etcd-backup --name=<node> --initial-cluster=<node>=https://<ip>:2380 --initial-advertise-peer-urls=https://<ip>:2380",
+            "cat /etc/kubernetes/manifests/etcd.yaml | grep data-dir",
+            "crictl ps | grep etcd"
+          ],
+          "references": [
+            {
+              "title": "Operating etcd Clusters",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/"
+            },
+            {
+              "title": "Backing up an etcd Cluster",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster"
+            }
+          ]
+        }
+      ]
+    },
+    "extension-interfaces": {
+      "title": "Extension Interfaces",
+      "subtitle": "Cluster Architecture > Extension Interfaces",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "CNI",
+          "description": "Container Network Interface",
+          "keyPoints": [
+            "Standard for configuring network interfaces in containers",
+            "Plugins: Calico, Flannel, Weave, Cilium",
+            "Handles Pod IP allocation and routing",
+            "Config files typically in /etc/cni/net.d/",
+            "Must be installed after kubeadm init for pods to communicate"
+          ],
+          "commands": [
+            "ls /etc/cni/net.d/",
+            "cat /etc/cni/net.d/*.conflist",
+            "kubectl get pods -n kube-system -l k8s-app=calico-node",
+            "kubectl get pods -n kube-system | grep -E 'calico|flannel|cilium|weave'",
+            "kubectl apply -f <cni-plugin-manifest>.yaml",
+            "kubectl get nodes -o wide (check INTERNAL-IP and STATUS)",
+            "ip route (check pod CIDR routes on node)",
+            "kubectl logs -n kube-system <cni-pod>",
+            "/opt/cni/bin/ (list installed CNI binaries)"
+          ],
+          "references": [
+            {
+              "title": "Network Plugins",
+              "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/"
+            },
+            {
+              "title": "Cluster Networking",
+              "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
+            }
+          ]
+        },
+        {
+          "name": "CSI",
+          "description": "Container Storage Interface",
+          "keyPoints": [
+            "Standard for exposing storage systems to containers",
+            "Replaces in-tree volume plugins",
+            "Supports dynamic provisioning, snapshots, cloning",
+            "Drivers: AWS EBS, GCE PD, Ceph, NFS"
+          ],
+          "commands": [
+            "kubectl get csidrivers",
+            "kubectl get csinodes",
+            "kubectl describe csidrivers <driver-name>",
+            "kubectl get csidriver <name> -o yaml",
+            "kubectl describe csinode <node-name>",
+            "kubectl get storageclasses",
+            "kubectl get volumeattachments",
+            "kubectl describe volumeattachment <name>",
+            "kubectl get pods -n kube-system | grep csi"
+          ],
+          "references": [
+            {
+              "title": "CSI Volumes",
+              "url": "https://kubernetes.io/docs/concepts/storage/volumes/#csi"
+            },
+            {
+              "title": "Storage Drivers",
+              "url": "https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes"
+            }
+          ]
+        },
+        {
+          "name": "CRI",
+          "description": "Container Runtime Interface",
+          "keyPoints": [
+            "Standard for container runtimes to integrate with kubelet",
+            "Runtimes: containerd, CRI-O",
+            "Docker removed in Kubernetes v1.24+ (dockershim)",
+            "Configured via kubelet --container-runtime-endpoint flag"
+          ],
+          "commands": [
+            "crictl ps",
+            "crictl ps -a (include stopped containers)",
+            "crictl images",
+            "crictl info",
+            "crictl logs <container-id>",
+            "crictl inspect <container-id>",
+            "crictl pods",
+            "crictl rmi <image-id>",
+            "systemctl status containerd",
+            "systemctl restart containerd",
+            "cat /etc/containerd/config.toml",
+            "cat /var/lib/kubelet/config.yaml | grep containerRuntimeEndpoint"
+          ],
+          "references": [
+            {
+              "title": "Container Runtime Interface",
+              "url": "https://kubernetes.io/docs/concepts/architecture/cri/"
+            },
+            {
+              "title": "Container Runtimes",
+              "url": "https://kubernetes.io/docs/setup/production-environment/container-runtimes/"
+            }
+          ]
+        }
+      ]
+    },
+    "crds-operators": {
+      "title": "CRDs & Operators",
+      "subtitle": "Cluster Architecture > CRDs & Operators",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "Custom Resource\nDefinitions",
+          "description": "Extend the Kubernetes API",
+          "keyPoints": [
+            "Define custom resource types in the API",
+            "YAML spec defines group, version, scope, schema",
+            "Can be namespaced or cluster-scoped",
+            "Once created, custom resources can be managed with kubectl",
+            "Supports schema validation via OpenAPI v3"
+          ],
+          "commands": [
+            "kubectl get crds",
+            "kubectl describe crd <crd-name>",
+            "kubectl get crd <crd-name> -o yaml",
+            "kubectl get <custom-resource> -n <namespace>",
+            "kubectl apply -f my-crd.yaml",
+            "kubectl delete crd <crd-name>",
+            "kubectl explain <custom-resource>",
+            "kubectl get crds | grep <group-name>",
+            "kubectl api-resources | grep <custom-resource>"
+          ],
+          "references": [
+            {
+              "title": "Custom Resources",
+              "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
+            },
+            {
+              "title": "CustomResourceDefinition",
+              "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/"
+            }
+          ]
+        },
+        {
+          "name": "Operator\nPattern",
+          "description": "Automated management of applications",
+          "keyPoints": [
+            "Combines CRDs + custom controllers",
+            "Encodes operational knowledge into software",
+            "Manages complex application lifecycle (install, upgrade, backup)",
+            "Examples: Prometheus Operator, cert-manager, etcd Operator"
+          ],
+          "commands": [
+            "kubectl get pods -n <operator-namespace>",
+            "kubectl logs <operator-pod> -n <operator-namespace>",
+            "kubectl logs <operator-pod> -n <operator-namespace> -f",
+            "kubectl describe pod <operator-pod> -n <operator-namespace>",
+            "kubectl get deployments -n <operator-namespace>",
+            "kubectl get crds | grep <operator-domain>",
+            "kubectl get events -n <operator-namespace> --sort-by='.lastTimestamp'"
+          ],
+          "references": [
+            {
+              "title": "Operator Pattern",
+              "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/operator/"
+            }
+          ]
+        },
+        {
+          "name": "Custom\nResources",
+          "description": "Instances of CRDs",
+          "keyPoints": [
+            "Created after CRD is registered",
+            "Follow the schema defined in the CRD",
+            "Managed like any other Kubernetes resource",
+            "Can have status subresources and validation",
+            "Support printer columns for kubectl output"
+          ],
+          "commands": [
+            "kubectl apply -f my-custom-resource.yaml",
+            "kubectl get <resource-type>",
+            "kubectl get <resource-type> -n <namespace> -o yaml",
+            "kubectl describe <resource-type> <name>",
+            "kubectl edit <resource-type> <name>",
+            "kubectl delete <resource-type> <name>",
+            "kubectl patch <resource-type> <name> --type merge -p '{\"spec\":{\"key\":\"value\"}}'",
+            "kubectl api-resources --api-group=<group-name>"
+          ],
+          "references": [
+            {
+              "title": "Custom Resources",
+              "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
+            },
+            {
+              "title": "Extend the Kubernetes API",
+              "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/"
+            }
+          ]
+        }
+      ]
+    },
+    "helm-kustomize": {
+      "title": "Helm & Kustomize",
+      "subtitle": "Cluster Architecture > Helm & Kustomize",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "Helm Charts",
+          "description": "Package manager for Kubernetes",
+          "keyPoints": [
+            "Charts are packages of pre-configured Kubernetes resources",
+            "values.yaml for customization",
+            "Supports versioning, dependencies, and rollbacks",
+            "Chart structure: Chart.yaml, templates/, values.yaml",
+            "Release: an instance of a chart running in a cluster"
+          ],
+          "commands": [
+            "helm repo add <name> <url>",
+            "helm install <release> <chart>",
+            "helm install <release> <chart> --set key=value",
+            "helm install <release> <chart> -f custom-values.yaml",
+            "helm install <release> <chart> --namespace <namespace> --create-namespace",
+            "helm upgrade <release> <chart>",
+            "helm upgrade <release> <chart> --install",
+            "helm list -A",
+            "helm rollback <release> <revision>",
+            "helm uninstall <release>",
+            "helm history <release>",
+            "helm get values <release>",
+            "helm get manifest <release>",
+            "helm show values <chart>",
+            "helm template <release> <chart>"
+          ],
+          "references": [
+            {
+              "title": "Helm (Official Docs)",
+              "url": "https://helm.sh/docs/"
+            },
+            {
+              "title": "Managing Kubernetes Objects with Helm",
+              "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/helm/"
+            }
+          ]
+        },
+        {
+          "name": "Helm\nRepositories",
+          "description": "Chart distribution",
+          "keyPoints": [
+            "Centralized or OCI-based chart storage",
+            "ArtifactHub for discovering charts",
+            "helm repo add/update/remove for management",
+            "OCI support for container registry storage"
+          ],
+          "commands": [
+            "helm repo add bitnami https://charts.bitnami.com/bitnami",
+            "helm repo update",
+            "helm repo list",
+            "helm repo remove <name>",
+            "helm search repo <keyword>",
+            "helm search repo <keyword> --versions",
+            "helm search hub <keyword>",
+            "helm pull <chart> --untar",
+            "helm show chart <chart>",
+            "helm show readme <chart>"
+          ],
+          "references": [
+            {
+              "title": "Helm Repositories",
+              "url": "https://helm.sh/docs/topics/chart_repository/"
+            }
+          ]
+        },
+        {
+          "name": "Kustomize\nBases",
+          "description": "Base configurations",
+          "keyPoints": [
+            "Define common resource configurations",
+            "kustomization.yaml lists resources",
+            "Can include generators (ConfigMap, Secret)",
+            "Built into kubectl with -k flag"
+          ],
+          "commands": [
+            "kubectl apply -k <directory>",
+            "kubectl kustomize <directory>",
+            "kubectl kustomize <directory> | kubectl apply -f -",
+            "kubectl diff -k <directory>",
+            "kubectl delete -k <directory>",
+            "kubectl get -k <directory>",
+            "kustomize build <directory>",
+            "kustomize build <directory> | kubectl apply -f -"
+          ],
+          "references": [
+            {
+              "title": "Kustomize",
+              "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/"
+            }
+          ]
+        },
+        {
+          "name": "Kustomize\nOverlays",
+          "description": "Environment-specific patches",
+          "keyPoints": [
+            "Layer customizations on top of base",
+            "Patches: strategic merge, JSON, inline",
+            "Common uses: namespace, labels, replicas, images",
+            "Overlays for dev/staging/prod environments"
+          ],
+          "commands": [
+            "kubectl apply -k overlays/production/",
+            "kubectl kustomize overlays/production/",
+            "kubectl diff -k overlays/production/",
+            "kustomize build overlays/staging/",
+            "kustomize build overlays/staging/ | kubectl diff -f -",
+            "kubectl apply -k overlays/staging/",
+            "kubectl delete -k overlays/production/",
+            "kustomize build overlays/production/ | kubectl apply --dry-run=client -f -"
+          ],
+          "references": [
+            {
+              "title": "Kustomize",
+              "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/"
+            }
+          ]
+        }
+      ]
+    },
+    "cluster-lifecycle": {
+      "title": "Cluster Lifecycle Management",
+      "subtitle": "Cluster Architecture > Cluster Lifecycle",
+      "parent": "cluster-architecture",
+      "parentTitle": "Cluster Architecture",
+      "domainColor": "#4CAF50",
+      "nodes": [
+        {
+          "name": "Version\nUpgrades",
+          "description": "Upgrading Kubernetes version",
+          "keyPoints": [
+            "Upgrade one minor version at a time (e.g., 1.33 -> 1.34)",
+            "Order: kubeadm -> control plane -> kubelet/kubectl -> workers",
+            "Drain nodes before upgrading",
+            "Verify with kubeadm upgrade plan",
+            "Always read release notes before upgrading"
+          ],
+          "commands": [
+            "apt-get update && apt-get install -y kubeadm=1.34.0-*",
+            "kubeadm upgrade plan",
+            "kubeadm upgrade apply v1.34.0",
+            "kubeadm upgrade apply v1.34.0 --dry-run",
+            "kubectl drain <node> --ignore-daemonsets --delete-emptydir-data",
+            "apt-get install -y kubelet=1.34.0-* kubectl=1.34.0-*",
+            "systemctl daemon-reload && systemctl restart kubelet",
+            "kubectl uncordon <node>",
+            "kubeadm upgrade node (on worker nodes after kubeadm upgrade)",
+            "kubectl get nodes (verify all nodes are Ready with new version)",
+            "kubectl version --short"
+          ],
+          "references": [
+            {
+              "title": "Upgrading kubeadm Clusters",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/"
+            },
+            {
+              "title": "Version Skew Policy",
+              "url": "https://kubernetes.io/releases/version-skew-policy/"
+            }
+          ]
+        },
+        {
+          "name": "Node\nManagement",
+          "description": "Adding, removing, and maintaining nodes",
+          "keyPoints": [
+            "Drain nodes for maintenance (evicts pods safely)",
+            "Cordon to prevent new pod scheduling",
+            "Uncordon to resume scheduling",
+            "Delete node from cluster when decommissioning",
+            "PodDisruptionBudgets protect workloads during drain"
+          ],
+          "commands": [
+            "kubectl drain <node> --ignore-daemonsets",
+            "kubectl drain <node> --ignore-daemonsets --delete-emptydir-data --force",
+            "kubectl cordon <node>",
+            "kubectl uncordon <node>",
+            "kubectl delete node <node>",
+            "kubectl get nodes -o wide",
+            "kubectl describe node <node>",
+            "kubectl get pods -A --field-selector spec.nodeName=<node>",
+            "kubectl label node <node> role=worker",
+            "kubectl annotate node <node> description='worker-node-01'"
+          ],
+          "references": [
+            {
+              "title": "Safely Drain a Node",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/"
+            },
+            {
+              "title": "Cluster Management",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/"
+            }
+          ]
+        },
+        {
+          "name": "etcd Backup\n& Restore",
+          "description": "Cluster state backup",
+          "keyPoints": [
+            "etcd holds all cluster data",
+            "Regular snapshots are critical for disaster recovery",
+            "Restore requires stopping the API server",
+            "Always verify backup integrity"
+          ],
+          "commands": [
+            "ETCDCTL_API=3 etcdctl snapshot save /backup/snap.db --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl snapshot restore /backup/snap.db --data-dir=/var/lib/etcd-restored",
+            "ETCDCTL_API=3 etcdctl snapshot status /backup/snap.db -w table",
+            "ETCDCTL_API=3 etcdctl endpoint health --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl member list --write-out=table --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "cat /etc/kubernetes/manifests/etcd.yaml",
+            "ls /var/lib/etcd/member/"
+          ],
+          "references": [
+            {
+              "title": "Operating etcd Clusters",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/"
+            }
+          ]
+        },
+        {
+          "name": "Certificate\nManagement",
+          "description": "TLS certificates for cluster components",
+          "keyPoints": [
+            "Certificates expire after 1 year by default",
+            "kubeadm certs renew for renewal",
+            "Certificates stored in /etc/kubernetes/pki/",
+            "Check expiry dates regularly",
+            "kubeadm auto-renews certs during control plane upgrades"
+          ],
+          "commands": [
+            "kubeadm certs check-expiration",
+            "kubeadm certs renew all",
+            "kubeadm certs renew apiserver",
+            "openssl x509 -in /etc/kubernetes/pki/apiserver.crt -noout -dates",
+            "openssl x509 -in /etc/kubernetes/pki/apiserver.crt -noout -text | grep -A2 Validity",
+            "ls /etc/kubernetes/pki/",
+            "kubeadm certs certificate-key",
+            "kubectl get csr",
+            "kubectl certificate approve <csr-name>"
+          ],
+          "references": [
+            {
+              "title": "PKI Certificates and Requirements",
+              "url": "https://kubernetes.io/docs/setup/best-practices/certificates/"
+            },
+            {
+              "title": "Certificate Management with kubeadm",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/"
+            }
+          ]
+        }
+      ]
+    },
+    "deployments": {
+      "title": "Deployments",
+      "subtitle": "Workloads & Scheduling > Deployments",
+      "parent": "workloads-scheduling",
+      "parentTitle": "Workloads & Scheduling",
+      "domainColor": "#FF9800",
+      "nodes": [
+        {
+          "name": "Rolling\nUpdates",
+          "description": "Zero-downtime deployment updates",
+          "keyPoints": [
+            "Default strategy: gradually replace old pods with new",
+            "maxSurge: max pods above desired count during update",
+            "maxUnavailable: max pods that can be unavailable during update",
+            "Automatically rolls back on failure with progressDeadlineSeconds"
+          ],
+          "commands": [
+            "kubectl set image deployment/myapp myapp=myapp:v2",
+            "kubectl set image deployment/myapp myapp=myapp:v2 --record",
+            "kubectl rollout status deployment/myapp",
+            "kubectl rollout history deployment/myapp",
+            "kubectl rollout pause deployment/myapp",
+            "kubectl rollout resume deployment/myapp",
+            "kubectl get rs -l app=myapp (see old and new ReplicaSets)",
+            "kubectl describe deployment myapp (check RollingUpdateStrategy)",
+            "kubectl patch deployment myapp -p '{\"spec\":{\"strategy\":{\"rollingUpdate\":{\"maxSurge\":1,\"maxUnavailable\":0}}}}'",
+            "kubectl explain deployment.spec.strategy.rollingUpdate"
+          ],
+          "references": [
+            {
+              "title": "Performing a Rolling Update",
+              "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/"
+            },
+            {
+              "title": "Deployments - Rolling Update",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-update-deployment"
+            }
+          ]
+        },
+        {
+          "name": "Rollbacks",
+          "description": "Revert to previous versions",
+          "keyPoints": [
+            "Kubernetes keeps revision history",
+            "Rollback to specific or previous revision",
+            "revisionHistoryLimit controls how many revisions to keep",
+            "Use 'kubectl rollout undo' to rollback"
+          ],
+          "commands": [
+            "kubectl rollout undo deployment/myapp",
+            "kubectl rollout undo deployment/myapp --to-revision=2",
+            "kubectl rollout history deployment/myapp",
+            "kubectl rollout history deployment/myapp --revision=3",
+            "kubectl get rs -l app=myapp",
+            "kubectl describe deployment myapp (check revision annotations)",
+            "kubectl patch deployment myapp -p '{\"spec\":{\"revisionHistoryLimit\":10}}'",
+            "kubectl rollout status deployment/myapp"
+          ],
+          "references": [
+            {
+              "title": "Rolling Back a Deployment",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment"
+            }
+          ]
+        },
+        {
+          "name": "Deployment\nStrategies",
+          "description": "RollingUpdate vs Recreate",
+          "keyPoints": [
+            "RollingUpdate: gradual replacement (default)",
+            "Recreate: kill all old pods, then create new (causes downtime)",
+            "Use Recreate when app can't run multiple versions simultaneously",
+            "Blue-green and canary via labels/services"
+          ],
+          "commands": [
+            "kubectl create deployment myapp --image=myapp:v1 --replicas=3",
+            "kubectl create deployment myapp --image=myapp:v1 --dry-run=client -o yaml > deploy.yaml",
+            "kubectl scale deployment/myapp --replicas=5",
+            "kubectl edit deployment/myapp",
+            "kubectl patch deployment myapp -p '{\"spec\":{\"strategy\":{\"type\":\"Recreate\"}}}'",
+            "kubectl get deployment myapp -o jsonpath='{.spec.strategy}'",
+            "kubectl explain deployment.spec.strategy",
+            "kubectl get pods -l app=myapp -w (watch pods during rollout)"
+          ],
+          "references": [
+            {
+              "title": "Deployment Strategy",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#strategy"
+            }
+          ]
+        },
+        {
+          "name": "Deployment\nSpec",
+          "description": "Key configuration fields",
+          "keyPoints": [
+            "replicas: desired number of pod instances",
+            "selector: label selector matching pod template",
+            "template: pod template spec (containers, volumes)",
+            "strategy: deployment strategy (RollingUpdate/Recreate)",
+            "minReadySeconds: wait time before considering pod ready"
+          ],
+          "commands": [
+            "kubectl get deployment myapp -o yaml",
+            "kubectl get deployment myapp -o wide",
+            "kubectl describe deployment myapp",
+            "kubectl apply -f deployment.yaml",
+            "kubectl explain deployment.spec",
+            "kubectl explain deployment.spec.template.spec.containers",
+            "kubectl patch deployment myapp -p '{\"spec\":{\"replicas\":5}}'",
+            "kubectl get deployment myapp -o jsonpath='{.spec.selector.matchLabels}'",
+            "kubectl label deployment myapp env=prod",
+            "kubectl delete deployment myapp"
+          ],
+          "references": [
+            {
+              "title": "Deployments",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+            },
+            {
+              "title": "Deployment API Reference",
+              "url": "https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/deployment-v1/"
+            }
+          ]
+        }
+      ]
+    },
+    "configmaps-secrets": {
+      "title": "ConfigMaps & Secrets",
+      "subtitle": "Workloads & Scheduling > ConfigMaps & Secrets",
+      "parent": "workloads-scheduling",
+      "parentTitle": "Workloads & Scheduling",
+      "domainColor": "#FF9800",
+      "nodes": [
+        {
+          "name": "ConfigMaps",
+          "description": "Store non-confidential configuration",
+          "keyPoints": [
+            "Key-value pairs for configuration data",
+            "Decouple config from container images",
+            "Can be consumed as environment variables or volume mounts",
+            "Max size: 1 MiB",
+            "Immutable ConfigMaps can be set with immutable: true"
+          ],
+          "commands": [
+            "kubectl create configmap my-config --from-literal=key1=val1 --from-literal=key2=val2",
+            "kubectl create configmap my-config --from-file=config.properties",
+            "kubectl create configmap my-config --from-file=<key>=<file-path>",
+            "kubectl create configmap my-config --from-env-file=app.env",
+            "kubectl get configmaps -n <namespace>",
+            "kubectl get configmap my-config -o yaml",
+            "kubectl describe configmap my-config",
+            "kubectl edit configmap my-config",
+            "kubectl delete configmap my-config",
+            "kubectl create configmap my-config --dry-run=client -o yaml > configmap.yaml"
+          ],
+          "references": [
+            {
+              "title": "ConfigMaps",
+              "url": "https://kubernetes.io/docs/concepts/configuration/configmap/"
+            },
+            {
+              "title": "Configure a Pod to Use a ConfigMap",
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/"
+            }
+          ]
+        },
+        {
+          "name": "Secrets",
+          "description": "Store sensitive data",
+          "keyPoints": [
+            "Base64 encoded (NOT encrypted by default)",
+            "Types: Opaque, docker-registry, tls, basic-auth, token",
+            "Can enable encryption at rest in etcd",
+            "Mounted as tmpfs (RAM) in pods",
+            "Immutable Secrets supported (immutable: true)"
+          ],
+          "commands": [
+            "kubectl create secret generic my-secret --from-literal=password=pass123",
+            "kubectl create secret generic my-secret --from-file=ssh-key=~/.ssh/id_rsa",
+            "kubectl create secret tls my-tls --cert=cert.pem --key=key.pem",
+            "kubectl create secret docker-registry my-reg --docker-server=<registry> --docker-username=<user> --docker-password=<pass>",
+            "kubectl get secrets -n <namespace>",
+            "kubectl get secret my-secret -o yaml",
+            "kubectl describe secret my-secret",
+            "kubectl get secret my-secret -o jsonpath='{.data.password}' | base64 -d",
+            "kubectl edit secret my-secret",
+            "kubectl delete secret my-secret",
+            "kubectl create secret generic my-secret --dry-run=client -o yaml > secret.yaml"
+          ],
+          "references": [
+            {
+              "title": "Secrets",
+              "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+            },
+            {
+              "title": "Managing Secrets",
+              "url": "https://kubernetes.io/docs/tasks/configmap-secret/"
+            }
+          ]
+        },
+        {
+          "name": "Volume\nMounts",
+          "description": "Mount as files in containers",
+          "keyPoints": [
+            "Mount ConfigMaps/Secrets as volumes in pods",
+            "Each key becomes a file in the mount path",
+            "subPath to mount specific keys",
+            "Updates propagate automatically (not with subPath)"
+          ],
+          "commands": [
+            "# In pod spec:\n# volumes:\n#   - name: config-vol\n#     configMap:\n#       name: my-config\n# containers:\n#   - volumeMounts:\n#     - name: config-vol\n#       mountPath: /etc/config",
+            "kubectl exec <pod> -- ls /etc/config",
+            "kubectl exec <pod> -- cat /etc/config/<key>",
+            "kubectl get pod <pod> -o jsonpath='{.spec.volumes}'",
+            "kubectl get pod <pod> -o jsonpath='{.spec.containers[*].volumeMounts}'",
+            "kubectl explain pod.spec.volumes.configMap",
+            "kubectl explain pod.spec.volumes.secret"
+          ],
+          "references": [
+            {
+              "title": "Using ConfigMaps as Files",
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#add-configmap-data-to-a-volume"
+            },
+            {
+              "title": "Using Secrets as Files",
+              "url": "https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod"
+            }
+          ]
+        },
+        {
+          "name": "Environment\nVariables",
+          "description": "Inject as env vars",
+          "keyPoints": [
+            "envFrom: inject all keys as env vars",
+            "env.valueFrom: inject specific keys",
+            "ConfigMap or Secret references",
+            "Env vars are NOT updated if ConfigMap/Secret changes"
+          ],
+          "commands": [
+            "# In pod spec:\n# envFrom:\n#   - configMapRef:\n#       name: my-config\n# env:\n#   - name: MY_VAR\n#     valueFrom:\n#       secretKeyRef:\n#         name: my-secret\n#         key: password",
+            "kubectl exec <pod> -- env (list all environment variables)",
+            "kubectl exec <pod> -- printenv MY_VAR",
+            "kubectl set env deployment/myapp MY_VAR=myvalue",
+            "kubectl set env deployment/myapp --from=configmap/my-config",
+            "kubectl set env deployment/myapp --from=secret/my-secret",
+            "kubectl set env deployment/myapp --list",
+            "kubectl explain pod.spec.containers.env",
+            "kubectl explain pod.spec.containers.envFrom"
+          ],
+          "references": [
+            {
+              "title": "Define Environment Variables",
+              "url": "https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/"
+            },
+            {
+              "title": "Configure Pods Using ConfigMaps",
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#define-container-environment-variables-using-configmap-data"
+            }
+          ]
+        }
+      ]
+    },
+    "autoscaling": {
+      "title": "Workload Autoscaling",
+      "subtitle": "Workloads & Scheduling > Autoscaling",
+      "parent": "workloads-scheduling",
+      "parentTitle": "Workloads & Scheduling",
+      "domainColor": "#FF9800",
+      "nodes": [
+        {
+          "name": "HPA",
+          "description": "Horizontal Pod Autoscaler",
+          "keyPoints": [
+            "Automatically scales pod replicas based on metrics",
+            "Supports CPU, memory, and custom metrics",
+            "Requires metrics-server to be running",
+            "Configurable min/max replicas and target utilization",
+            "Default sync period is 15 seconds"
+          ],
+          "commands": [
+            "kubectl autoscale deployment myapp --min=2 --max=10 --cpu-percent=80",
+            "kubectl get hpa",
+            "kubectl get hpa -A",
+            "kubectl describe hpa myapp",
+            "kubectl get hpa myapp -o yaml",
+            "kubectl edit hpa myapp",
+            "kubectl delete hpa myapp",
+            "kubectl top pods",
+            "kubectl top pods -n <namespace> --sort-by=cpu",
+            "kubectl explain hpa.spec"
+          ],
+          "references": [
+            {
+              "title": "Horizontal Pod Autoscaling",
+              "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/"
+            },
+            {
+              "title": "HPA Walkthrough",
+              "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "VPA",
+          "description": "Vertical Pod Autoscaler",
+          "keyPoints": [
+            "Adjusts resource requests/limits for containers",
+            "Modes: Off (recommend only), Auto (apply changes)",
+            "Requires VPA admission controller",
+            "Cannot be used with HPA on the same CPU/memory metrics"
+          ],
+          "commands": [
+            "kubectl get vpa",
+            "kubectl get vpa -A",
+            "kubectl describe vpa <name>",
+            "kubectl get vpa <name> -o yaml",
+            "kubectl apply -f vpa.yaml",
+            "kubectl delete vpa <name>",
+            "kubectl get pods -n kube-system | grep vpa",
+            "kubectl top pods (compare actual vs recommended)"
+          ],
+          "references": [
+            {
+              "title": "Autoscaling Workloads",
+              "url": "https://kubernetes.io/docs/concepts/workloads/autoscaling/"
+            }
+          ]
+        },
+        {
+          "name": "Metrics\nServer",
+          "description": "Resource usage metrics collection",
+          "keyPoints": [
+            "Collects CPU/memory usage from kubelets",
+            "Required for HPA and 'kubectl top'",
+            "Runs as a deployment in kube-system",
+            "Does NOT store metrics long-term",
+            "Queries kubelet's /metrics/resource endpoint"
+          ],
+          "commands": [
+            "kubectl top nodes",
+            "kubectl top nodes --sort-by=cpu",
+            "kubectl top pods",
+            "kubectl top pods -A --sort-by=memory",
+            "kubectl top pods --containers",
+            "kubectl top pods -n <namespace> --sort-by=cpu",
+            "kubectl get deployment metrics-server -n kube-system",
+            "kubectl get pods -n kube-system | grep metrics-server",
+            "kubectl logs -n kube-system -l k8s-app=metrics-server",
+            "kubectl get apiservice v1beta1.metrics.k8s.io"
+          ],
+          "references": [
+            {
+              "title": "Resource Metrics Pipeline",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/"
+            }
+          ]
+        }
+      ]
+    },
+    "self-healing": {
+      "title": "Self-Healing Deployments",
+      "subtitle": "Workloads & Scheduling > Self-Healing",
+      "parent": "workloads-scheduling",
+      "parentTitle": "Workloads & Scheduling",
+      "domainColor": "#FF9800",
+      "nodes": [
+        {
+          "name": "ReplicaSets",
+          "description": "Ensure desired pod count",
+          "keyPoints": [
+            "Maintains a stable set of replica pods",
+            "Uses label selectors to identify pods",
+            "Automatically creates/deletes pods to match desired count",
+            "Usually managed by Deployments (don't create directly)"
+          ],
+          "commands": [
+            "kubectl get replicasets",
+            "kubectl get rs -A",
+            "kubectl get rs -o wide",
+            "kubectl describe rs <name>",
+            "kubectl get rs <name> -o yaml",
+            "kubectl scale rs <name> --replicas=3",
+            "kubectl delete rs <name>",
+            "kubectl get rs -l app=myapp",
+            "kubectl explain replicaset.spec"
+          ],
+          "references": [
+            {
+              "title": "ReplicaSet",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+            }
+          ]
+        },
+        {
+          "name": "DaemonSets",
+          "description": "Run a pod on every node",
+          "keyPoints": [
+            "Ensures a copy of a pod runs on all (or selected) nodes",
+            "Use cases: log collection, monitoring agents, networking (CNI, kube-proxy)",
+            "Pods are added when new nodes join the cluster",
+            "Supports update strategies: RollingUpdate, OnDelete"
+          ],
+          "commands": [
+            "kubectl get daemonsets -A",
+            "kubectl get ds -n <namespace>",
+            "kubectl describe daemonset <name> -n <namespace>",
+            "kubectl get ds <name> -o yaml",
+            "kubectl rollout status daemonset/<name>",
+            "kubectl rollout history daemonset/<name>",
+            "kubectl set image daemonset/<name> <container>=<image>:<tag>",
+            "kubectl delete daemonset <name>",
+            "kubectl explain daemonset.spec.updateStrategy",
+            "kubectl get pods -l app=<ds-label> -o wide"
+          ],
+          "references": [
+            {
+              "title": "DaemonSet",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/"
+            }
+          ]
+        },
+        {
+          "name": "StatefulSets",
+          "description": "Stateful application workloads",
+          "keyPoints": [
+            "Stable, unique network identity for each pod",
+            "Ordered, graceful deployment and scaling",
+            "Stable persistent storage via PVCs",
+            "Pod names: <statefulset-name>-0, -1, -2...",
+            "Requires a Headless Service for network identity"
+          ],
+          "commands": [
+            "kubectl get statefulsets",
+            "kubectl get sts -A",
+            "kubectl describe statefulset <name>",
+            "kubectl get sts <name> -o yaml",
+            "kubectl scale statefulset <name> --replicas=5",
+            "kubectl rollout status statefulset/<name>",
+            "kubectl rollout history statefulset/<name>",
+            "kubectl delete statefulset <name> --cascade=orphan",
+            "kubectl get pvc -l app=<sts-label> (check associated PVCs)",
+            "kubectl explain statefulset.spec.podManagementPolicy"
+          ],
+          "references": [
+            {
+              "title": "StatefulSets",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+            },
+            {
+              "title": "StatefulSet Basics",
+              "url": "https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set/"
+            }
+          ]
+        },
+        {
+          "name": "Jobs",
+          "description": "Run-to-completion workloads",
+          "keyPoints": [
+            "Runs pods to successful completion",
+            "completions: number of successful runs needed",
+            "parallelism: max pods running in parallel",
+            "backoffLimit: max retries before considering failed",
+            "activeDeadlineSeconds: timeout for the job"
+          ],
+          "commands": [
+            "kubectl create job my-job --image=busybox -- echo 'hello'",
+            "kubectl create job my-job --image=busybox --dry-run=client -o yaml -- echo 'hello'",
+            "kubectl get jobs",
+            "kubectl get jobs -A",
+            "kubectl describe job my-job",
+            "kubectl get job my-job -o yaml",
+            "kubectl logs job/my-job",
+            "kubectl delete job my-job",
+            "kubectl get pods --selector=job-name=my-job",
+            "kubectl explain job.spec.completions",
+            "kubectl explain job.spec.parallelism"
+          ],
+          "references": [
+            {
+              "title": "Jobs",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/"
+            }
+          ]
+        },
+        {
+          "name": "CronJobs",
+          "description": "Scheduled recurring tasks",
+          "keyPoints": [
+            "Runs Jobs on a cron schedule",
+            "Schedule format: minute hour day-of-month month day-of-week",
+            "concurrencyPolicy: Allow, Forbid, Replace",
+            "successfulJobsHistoryLimit & failedJobsHistoryLimit"
+          ],
+          "commands": [
+            "kubectl create cronjob my-cron --image=busybox --schedule='*/5 * * * *' -- echo 'hello'",
+            "kubectl create cronjob my-cron --image=busybox --schedule='*/5 * * * *' --dry-run=client -o yaml -- echo 'hello'",
+            "kubectl get cronjobs",
+            "kubectl get cj -A",
+            "kubectl describe cronjob my-cron",
+            "kubectl get cronjob my-cron -o yaml",
+            "kubectl delete cronjob my-cron",
+            "kubectl create job --from=cronjob/my-cron manual-job-001",
+            "kubectl get jobs --selector=cronjob=my-cron",
+            "kubectl explain cronjob.spec.concurrencyPolicy"
+          ],
+          "references": [
+            {
+              "title": "CronJob",
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
+            },
+            {
+              "title": "Running Automated Tasks with CronJob",
+              "url": "https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/"
+            }
+          ]
+        }
+      ]
+    },
+    "pod-admission-scheduling": {
+      "title": "Pod Admission & Scheduling",
+      "subtitle": "Workloads & Scheduling > Pod Admission & Scheduling",
+      "parent": "workloads-scheduling",
+      "parentTitle": "Workloads & Scheduling",
+      "domainColor": "#FF9800",
+      "nodes": [
+        {
+          "name": "nodeSelector",
+          "description": "Simple node selection",
+          "keyPoints": [
+            "Simplest way to constrain pods to specific nodes",
+            "Match node labels (key-value pairs)",
+            "Pod won't be scheduled if no node matches",
+            "Label nodes first, then use in pod spec"
+          ],
+          "commands": [
+            "kubectl label nodes <node> disktype=ssd",
+            "kubectl label nodes <node> disktype- (remove label)",
+            "kubectl get nodes --show-labels",
+            "kubectl get nodes -l disktype=ssd",
+            "# In pod spec:\n# nodeSelector:\n#   disktype: ssd",
+            "kubectl run test-pod --image=nginx --overrides='{\"spec\":{\"nodeSelector\":{\"disktype\":\"ssd\"}}}' --dry-run=client -o yaml",
+            "kubectl describe pod <pod> | grep -A5 'Node-Selectors'",
+            "kubectl explain pod.spec.nodeSelector"
+          ],
+          "references": [
+            {
+              "title": "Assigning Pods to Nodes",
+              "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector"
+            }
+          ]
+        },
+        {
+          "name": "Node\nAffinity",
+          "description": "Advanced node selection rules",
+          "keyPoints": [
+            "requiredDuringSchedulingIgnoredDuringExecution (hard rule)",
+            "preferredDuringSchedulingIgnoredDuringExecution (soft rule)",
+            "Supports In, NotIn, Exists, DoesNotExist operators",
+            "More expressive than nodeSelector",
+            "Pod anti-affinity spreads pods across nodes"
+          ],
+          "commands": [
+            "kubectl get nodes --show-labels",
+            "kubectl label nodes <node> zone=us-east-1a",
+            "kubectl get nodes -l zone=us-east-1a",
+            "kubectl describe pod <pod> | grep -A10 'Node-Selectors\\|Tolerations\\|Affinity'",
+            "kubectl explain pod.spec.affinity.nodeAffinity",
+            "kubectl explain pod.spec.affinity.podAffinity",
+            "kubectl explain pod.spec.affinity.podAntiAffinity",
+            "kubectl get pods -o wide (check node placement)"
+          ],
+          "references": [
+            {
+              "title": "Affinity and Anti-affinity",
+              "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity"
+            }
+          ]
+        },
+        {
+          "name": "Taints &\nTolerations",
+          "description": "Repel pods from nodes",
+          "keyPoints": [
+            "Taints are set on nodes to repel pods",
+            "Tolerations are set on pods to allow scheduling on tainted nodes",
+            "Effects: NoSchedule, PreferNoSchedule, NoExecute",
+            "Control plane nodes are tainted by default"
+          ],
+          "commands": [
+            "kubectl taint nodes <node> key=value:NoSchedule",
+            "kubectl taint nodes <node> key=value:NoSchedule- (remove taint)",
+            "kubectl taint nodes <node> key=value:NoExecute",
+            "kubectl taint nodes <node> key=value:PreferNoSchedule",
+            "kubectl describe node <node> | grep -i taint",
+            "kubectl get nodes -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.taints}{\"\\n\"}{end}'",
+            "kubectl explain pod.spec.tolerations",
+            "kubectl describe pod <pod> | grep -A5 Tolerations"
+          ],
+          "references": [
+            {
+              "title": "Taints and Tolerations",
+              "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
+            }
+          ]
+        },
+        {
+          "name": "Resource\nLimits",
+          "description": "CPU & memory constraints",
+          "keyPoints": [
+            "requests: minimum guaranteed resources",
+            "limits: maximum allowed resources",
+            "Pods exceeding memory limits are OOMKilled",
+            "Pods exceeding CPU limits are throttled",
+            "QoS classes: Guaranteed, Burstable, BestEffort"
+          ],
+          "commands": [
+            "kubectl describe pod <pod> (check Resources section)",
+            "kubectl top pods",
+            "kubectl top pods --sort-by=memory",
+            "kubectl describe node <node> (check Allocated resources)",
+            "kubectl get pod <pod> -o jsonpath='{.spec.containers[*].resources}'",
+            "kubectl set resources deployment/myapp --requests=cpu=100m,memory=128Mi --limits=cpu=500m,memory=256Mi",
+            "kubectl explain pod.spec.containers.resources",
+            "kubectl get pods -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.status.qosClass}{\"\\n\"}{end}'"
+          ],
+          "references": [
+            {
+              "title": "Managing Resources for Containers",
+              "url": "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/"
+            },
+            {
+              "title": "Resource Quality of Service",
+              "url": "https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/"
+            }
+          ]
+        },
+        {
+          "name": "Pod\nPriority",
+          "description": "Priority-based scheduling",
+          "keyPoints": [
+            "PriorityClass defines priority levels",
+            "Higher priority pods can preempt lower priority pods",
+            "system-cluster-critical and system-node-critical are built-in",
+            "preemptionPolicy: PreemptLowerPriority or Never"
+          ],
+          "commands": [
+            "kubectl get priorityclasses",
+            "kubectl describe priorityclass <name>",
+            "kubectl get priorityclass <name> -o yaml",
+            "kubectl apply -f priorityclass.yaml",
+            "kubectl delete priorityclass <name>",
+            "kubectl explain priorityclass",
+            "kubectl get pods -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.priorityClassName}{\"\\n\"}{end}'",
+            "kubectl describe pod <pod> | grep Priority"
+          ],
+          "references": [
+            {
+              "title": "Pod Priority and Preemption",
+              "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/"
+            }
+          ]
+        }
+      ]
+    },
+    "pod-connectivity": {
+      "title": "Pod-to-Pod Connectivity",
+      "subtitle": "Services & Networking > Pod Connectivity",
+      "parent": "services-networking",
+      "parentTitle": "Services & Networking",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "name": "Pod Network\nModel",
+          "description": "Kubernetes networking fundamentals",
+          "keyPoints": [
+            "Every pod gets its own IP address",
+            "Pods can communicate with any other pod without NAT",
+            "Agents on a node can communicate with all pods on that node",
+            "Flat network: all pods in a single address space"
+          ],
+          "commands": [
+            "kubectl get pods -o wide (see pod IPs)",
+            "kubectl get pods -A -o wide",
+            "kubectl exec <pod> -- curl <other-pod-ip>:<port>",
+            "kubectl exec <pod> -- ping <other-pod-ip>",
+            "kubectl exec <pod> -- ip addr",
+            "kubectl exec <pod> -- ip route",
+            "kubectl get pods -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.status.podIP}{\"\\n\"}{end}'",
+            "kubectl cluster-info dump | grep -i cidr"
+          ],
+          "references": [
+            {
+              "title": "Cluster Networking",
+              "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
+            },
+            {
+              "title": "The Kubernetes Network Model",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/#the-kubernetes-network-model"
+            }
+          ]
+        },
+        {
+          "name": "CNI\nPlugins",
+          "description": "Network implementation",
+          "keyPoints": [
+            "Calico: BGP-based, network policies, high performance",
+            "Flannel: simple overlay network using VXLAN",
+            "Cilium: eBPF-based, advanced security and observability",
+            "Weave: mesh overlay, easy setup"
+          ],
+          "commands": [
+            "kubectl get pods -n kube-system | grep -E 'calico|flannel|cilium|weave'",
+            "ls /etc/cni/net.d/",
+            "cat /etc/cni/net.d/*.conflist",
+            "kubectl get nodes -o wide",
+            "kubectl logs -n kube-system <cni-pod>",
+            "kubectl describe pod -n kube-system <cni-pod>",
+            "ls /opt/cni/bin/",
+            "kubectl get ds -n kube-system (check CNI DaemonSets)",
+            "ip route (check pod network routes on node)"
+          ],
+          "references": [
+            {
+              "title": "Network Plugins",
+              "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/"
+            },
+            {
+              "title": "Installing a Pod Network Add-on",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network"
+            }
+          ]
+        },
+        {
+          "name": "Pod DNS",
+          "description": "DNS resolution for pods",
+          "keyPoints": [
+            "Pods get DNS entries: <pod-ip-dashed>.<namespace>.pod.cluster.local",
+            "DNS config can be customized in pod spec",
+            "dnsPolicy: Default, ClusterFirst, ClusterFirstWithHostNet, None",
+            "/etc/resolv.conf points to CoreDNS service"
+          ],
+          "commands": [
+            "kubectl exec <pod> -- cat /etc/resolv.conf",
+            "kubectl exec <pod> -- nslookup kubernetes.default",
+            "kubectl exec <pod> -- nslookup <service>.<namespace>.svc.cluster.local",
+            "kubectl run dnstest --image=busybox:1.28 --rm -it --restart=Never -- nslookup kubernetes.default",
+            "kubectl get svc -n kube-system kube-dns",
+            "kubectl get pod <pod> -o jsonpath='{.spec.dnsPolicy}'",
+            "kubectl explain pod.spec.dnsPolicy",
+            "kubectl explain pod.spec.dnsConfig"
+          ],
+          "references": [
+            {
+              "title": "DNS for Services and Pods",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/"
+            }
+          ]
+        }
+      ]
+    },
+    "service-types": {
+      "title": "Service Types",
+      "subtitle": "Services & Networking > Service Types",
+      "parent": "services-networking",
+      "parentTitle": "Services & Networking",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "name": "ClusterIP",
+          "description": "Internal cluster access only",
+          "keyPoints": [
+            "Default service type",
+            "Accessible only within the cluster",
+            "Virtual IP assigned by the cluster",
+            "Use for internal microservice communication"
+          ],
+          "commands": [
+            "kubectl expose deployment myapp --port=80 --target-port=8080",
+            "kubectl get svc myapp",
+            "kubectl get svc myapp -o yaml",
+            "kubectl describe svc myapp",
+            "kubectl get endpoints myapp",
+            "kubectl exec <pod> -- curl myapp.default.svc.cluster.local",
+            "kubectl exec <pod> -- curl <cluster-ip>:80",
+            "kubectl edit svc myapp",
+            "kubectl delete svc myapp",
+            "kubectl create service clusterip myapp --tcp=80:8080 --dry-run=client -o yaml"
+          ],
+          "references": [
+            {
+              "title": "Service - ClusterIP",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/service/#type-clusterip"
+            }
+          ]
+        },
+        {
+          "name": "NodePort",
+          "description": "External access via node port",
+          "keyPoints": [
+            "Exposes service on each node's IP at a static port",
+            "Port range: 30000-32767",
+            "Accessible from outside the cluster via <NodeIP>:<NodePort>",
+            "Builds on ClusterIP"
+          ],
+          "commands": [
+            "kubectl expose deployment myapp --type=NodePort --port=80 --target-port=8080",
+            "kubectl get svc myapp",
+            "kubectl get svc myapp -o yaml",
+            "kubectl describe svc myapp",
+            "kubectl get svc myapp -o jsonpath='{.spec.ports[0].nodePort}'",
+            "curl <node-ip>:<node-port>",
+            "kubectl get endpoints myapp",
+            "kubectl create service nodeport myapp --tcp=80:8080 --node-port=30080 --dry-run=client -o yaml",
+            "kubectl get nodes -o wide (get node IPs for testing)"
+          ],
+          "references": [
+            {
+              "title": "Service - NodePort",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport"
+            }
+          ]
+        },
+        {
+          "name": "LoadBalancer",
+          "description": "Cloud provider load balancer",
+          "keyPoints": [
+            "Provisions an external load balancer (cloud only)",
+            "Builds on NodePort and ClusterIP",
+            "Cloud controller allocates external IP",
+            "Best for production external access in cloud"
+          ],
+          "commands": [
+            "kubectl expose deployment myapp --type=LoadBalancer --port=80 --target-port=8080",
+            "kubectl get svc myapp (check EXTERNAL-IP)",
+            "kubectl get svc myapp -o yaml",
+            "kubectl describe svc myapp",
+            "kubectl get svc myapp -o jsonpath='{.status.loadBalancer.ingress[0].ip}'",
+            "kubectl get endpoints myapp",
+            "curl <external-ip>:80",
+            "kubectl get events --field-selector involvedObject.name=myapp"
+          ],
+          "references": [
+            {
+              "title": "Service - LoadBalancer",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer"
+            }
+          ]
+        },
+        {
+          "name": "ExternalName",
+          "description": "DNS CNAME alias",
+          "keyPoints": [
+            "Maps a service to an external DNS name",
+            "Returns a CNAME record",
+            "No proxying or port mapping",
+            "Use for external service references"
+          ],
+          "commands": [
+            "kubectl create service externalname my-svc --external-name=api.example.com",
+            "kubectl get svc my-svc",
+            "kubectl get svc my-svc -o yaml",
+            "kubectl describe svc my-svc",
+            "kubectl exec <pod> -- nslookup my-svc.default.svc.cluster.local",
+            "kubectl delete svc my-svc"
+          ],
+          "references": [
+            {
+              "title": "Service - ExternalName",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/service/#externalname"
+            }
+          ]
+        },
+        {
+          "name": "Endpoints &\nEndpointSlices",
+          "description": "Backend pod tracking",
+          "keyPoints": [
+            "Endpoints: list of IP:port pairs for a service's pods",
+            "EndpointSlices: scalable replacement for Endpoints",
+            "Automatically managed by the Endpoints controller",
+            "Manual Endpoints for external services without selectors"
+          ],
+          "commands": [
+            "kubectl get endpoints myapp",
+            "kubectl get endpoints -A",
+            "kubectl describe endpoints myapp",
+            "kubectl get endpoints myapp -o yaml",
+            "kubectl get endpointslices",
+            "kubectl get endpointslices -l kubernetes.io/service-name=myapp",
+            "kubectl describe endpointslice <name>",
+            "kubectl get endpointslices -o yaml"
+          ],
+          "references": [
+            {
+              "title": "Endpoints",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/service/#endpoints"
+            },
+            {
+              "title": "EndpointSlices",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/"
+            }
+          ]
+        }
+      ]
+    },
+    "gateway-api": {
+      "title": "Gateway API",
+      "subtitle": "Services & Networking > Gateway API",
+      "parent": "services-networking",
+      "parentTitle": "Services & Networking",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "name": "Gateway",
+          "description": "Infrastructure for traffic routing",
+          "keyPoints": [
+            "Represents a load balancer or proxy instance",
+            "Defines listeners (ports, protocols, TLS)",
+            "Managed by infrastructure providers",
+            "Replaces the role of Ingress controllers"
+          ],
+          "commands": [
+            "kubectl get gateways",
+            "kubectl get gateways -A",
+            "kubectl describe gateway <name>",
+            "kubectl get gateway <name> -o yaml",
+            "kubectl apply -f gateway.yaml",
+            "kubectl delete gateway <name>",
+            "kubectl get gatewayclasses",
+            "kubectl explain gateway.spec"
+          ],
+          "references": [
+            {
+              "title": "Gateway API",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/gateway/"
+            },
+            {
+              "title": "Gateway API Docs",
+              "url": "https://gateway-api.sigs.k8s.io/"
+            }
+          ]
+        },
+        {
+          "name": "HTTPRoute",
+          "description": "HTTP traffic routing rules",
+          "keyPoints": [
+            "Defines rules for routing HTTP traffic",
+            "Supports path-based, header-based, method-based matching",
+            "Can route to multiple backends (weighted traffic splitting)",
+            "Attaches to a Gateway via parentRefs"
+          ],
+          "commands": [
+            "kubectl get httproutes",
+            "kubectl get httproutes -A",
+            "kubectl describe httproute <name>",
+            "kubectl get httproute <name> -o yaml",
+            "kubectl apply -f httproute.yaml",
+            "kubectl delete httproute <name>",
+            "kubectl explain httproute.spec.rules"
+          ],
+          "references": [
+            {
+              "title": "Gateway API - HTTPRoute",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/gateway/#api-kind-httproute"
+            },
+            {
+              "title": "HTTPRoute Docs",
+              "url": "https://gateway-api.sigs.k8s.io/api-types/httproute/"
+            }
+          ]
+        },
+        {
+          "name": "GRPCRoute\n& TLSRoute",
+          "description": "Protocol-specific routing",
+          "keyPoints": [
+            "GRPCRoute: routing for gRPC services",
+            "TLSRoute: routing based on TLS SNI",
+            "TCPRoute/UDPRoute: L4 traffic routing",
+            "Each route type handles specific protocol needs"
+          ],
+          "commands": [
+            "kubectl get grpcroutes",
+            "kubectl get grpcroutes -A",
+            "kubectl describe grpcroute <name>",
+            "kubectl get tlsroutes",
+            "kubectl get tlsroutes -A",
+            "kubectl describe tlsroute <name>",
+            "kubectl get tcproutes",
+            "kubectl get udproutes"
+          ],
+          "references": [
+            {
+              "title": "Gateway API",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/gateway/"
+            },
+            {
+              "title": "GRPCRoute Docs",
+              "url": "https://gateway-api.sigs.k8s.io/api-types/grpcroute/"
+            }
+          ]
+        },
+        {
+          "name": "Gateway\nClasses",
+          "description": "Gateway implementation types",
+          "keyPoints": [
+            "Defines which controller implements the Gateway",
+            "Similar to IngressClass for Ingress",
+            "Cluster-scoped resource",
+            "Examples: istio, nginx, envoy, traefik, cilium"
+          ],
+          "commands": [
+            "kubectl get gatewayclasses",
+            "kubectl describe gatewayclass <name>",
+            "kubectl get gatewayclass <name> -o yaml",
+            "kubectl apply -f gatewayclass.yaml",
+            "kubectl delete gatewayclass <name>",
+            "kubectl explain gatewayclass.spec",
+            "kubectl get crds | grep gateway"
+          ],
+          "references": [
+            {
+              "title": "Gateway API - GatewayClass",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/gateway/#api-kind-gatewayclass"
+            },
+            {
+              "title": "GatewayClass Docs",
+              "url": "https://gateway-api.sigs.k8s.io/api-types/gatewayclass/"
+            }
+          ]
+        }
+      ]
+    },
+    "ingress": {
+      "title": "Ingress",
+      "subtitle": "Services & Networking > Ingress",
+      "parent": "services-networking",
+      "parentTitle": "Services & Networking",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "name": "Ingress\nControllers",
+          "description": "Implement Ingress resources",
+          "keyPoints": [
+            "Required for Ingress resources to work",
+            "Common: NGINX Ingress Controller, Traefik, HAProxy",
+            "Runs as a Deployment/DaemonSet in the cluster",
+            "Watches for Ingress resources and configures routing"
+          ],
+          "commands": [
+            "kubectl get pods -n ingress-nginx",
+            "kubectl get ingressclass",
+            "kubectl describe ingressclass <name>",
+            "kubectl get ingressclass -o yaml",
+            "kubectl logs -n ingress-nginx <controller-pod>",
+            "kubectl describe pod -n ingress-nginx <controller-pod>",
+            "kubectl get svc -n ingress-nginx",
+            "kubectl get deployment -n ingress-nginx"
+          ],
+          "references": [
+            {
+              "title": "Ingress Controllers",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/"
+            }
+          ]
+        },
+        {
+          "name": "Ingress\nResources",
+          "description": "Routing rules definition",
+          "keyPoints": [
+            "Define HTTP/HTTPS routing to backend services",
+            "Host-based and path-based routing",
+            "Can specify default backend",
+            "Annotations for controller-specific config"
+          ],
+          "commands": [
+            "kubectl get ingress",
+            "kubectl get ingress -A",
+            "kubectl describe ingress <name>",
+            "kubectl get ingress <name> -o yaml",
+            "kubectl create ingress myingress --rule='host/path=svc:port'",
+            "kubectl create ingress myingress --rule='myapp.example.com/=myapp-svc:80' --dry-run=client -o yaml",
+            "kubectl edit ingress <name>",
+            "kubectl delete ingress <name>",
+            "kubectl explain ingress.spec.rules",
+            "curl -H 'Host: myapp.example.com' http://<ingress-ip>"
+          ],
+          "references": [
+            {
+              "title": "Ingress",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/"
+            }
+          ]
+        },
+        {
+          "name": "TLS\nTermination",
+          "description": "HTTPS support",
+          "keyPoints": [
+            "TLS certificates stored as Kubernetes Secrets",
+            "Ingress terminates TLS and forwards HTTP to backends",
+            "Multiple hosts can have different certificates",
+            "cert-manager can auto-provision certificates"
+          ],
+          "commands": [
+            "kubectl create secret tls my-tls --cert=cert.pem --key=key.pem",
+            "kubectl get secret my-tls -o yaml",
+            "kubectl describe secret my-tls",
+            "# In ingress spec:\n# tls:\n#   - hosts: [myapp.example.com]\n#     secretName: my-tls",
+            "kubectl create ingress myingress --rule='myapp.example.com/=myapp-svc:80,tls=my-tls' --dry-run=client -o yaml",
+            "curl -k https://myapp.example.com (test TLS)",
+            "openssl s_client -connect <ingress-ip>:443 -servername myapp.example.com",
+            "kubectl explain ingress.spec.tls"
+          ],
+          "references": [
+            {
+              "title": "Ingress TLS",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/#tls"
+            }
+          ]
+        },
+        {
+          "name": "Path-Based\nRouting",
+          "description": "URL path routing",
+          "keyPoints": [
+            "pathType: Prefix, Exact, ImplementationSpecific",
+            "Prefix: matches URL path prefix",
+            "Exact: matches exact URL path",
+            "Multiple paths can route to different services"
+          ],
+          "commands": [
+            "kubectl get ingress -o wide",
+            "kubectl describe ingress <name>",
+            "kubectl get ingress <name> -o yaml",
+            "kubectl create ingress multi-path --rule='/api/*=api-svc:80' --rule='/web/*=web-svc:80' --dry-run=client -o yaml",
+            "kubectl explain ingress.spec.rules.http.paths.pathType",
+            "curl http://<ingress-ip>/api/",
+            "curl http://<ingress-ip>/web/",
+            "kubectl get ingress <name> -o jsonpath='{.spec.rules[*].http.paths}'"
+          ],
+          "references": [
+            {
+              "title": "Ingress Path Types",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types"
+            }
+          ]
+        }
+      ]
+    },
+    "network-policies": {
+      "title": "Network Policies",
+      "subtitle": "Services & Networking > Network Policies",
+      "parent": "services-networking",
+      "parentTitle": "Services & Networking",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "name": "Ingress\nRules",
+          "description": "Control incoming traffic",
+          "keyPoints": [
+            "Define which traffic is allowed INTO selected pods",
+            "Match by: podSelector, namespaceSelector, ipBlock",
+            "Empty ingress = deny all incoming traffic",
+            "Absence of NetworkPolicy = all traffic allowed"
+          ],
+          "commands": [
+            "kubectl get networkpolicies -n <namespace>",
+            "kubectl get netpol -A",
+            "kubectl describe networkpolicy <name> -n <namespace>",
+            "kubectl get networkpolicy <name> -o yaml",
+            "kubectl apply -f netpol.yaml",
+            "kubectl delete networkpolicy <name> -n <namespace>",
+            "kubectl explain networkpolicy.spec.ingress",
+            "kubectl exec <pod> -- curl <target-pod-ip>:<port> (test if traffic is allowed)"
+          ],
+          "references": [
+            {
+              "title": "Network Policies",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/"
+            }
+          ]
+        },
+        {
+          "name": "Egress\nRules",
+          "description": "Control outgoing traffic",
+          "keyPoints": [
+            "Define which traffic is allowed OUT of selected pods",
+            "Match by: podSelector, namespaceSelector, ipBlock",
+            "Can restrict DNS access (port 53)",
+            "Important for security: limit external access"
+          ],
+          "commands": [
+            "kubectl apply -f egress-policy.yaml",
+            "kubectl get networkpolicies -n <namespace>",
+            "kubectl describe networkpolicy <name> -n <namespace>",
+            "kubectl get networkpolicy <name> -o yaml",
+            "kubectl explain networkpolicy.spec.egress",
+            "kubectl exec <pod> -- curl <external-ip>:<port> (test egress)",
+            "kubectl exec <pod> -- nslookup google.com (test DNS egress on port 53)",
+            "kubectl delete networkpolicy <name> -n <namespace>"
+          ],
+          "references": [
+            {
+              "title": "Network Policies",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/"
+            }
+          ]
+        },
+        {
+          "name": "Selectors",
+          "description": "Target pods and namespaces",
+          "keyPoints": [
+            "podSelector: select pods by labels in the same namespace",
+            "namespaceSelector: select namespaces by labels",
+            "Combined: AND logic (pods matching labels in matching namespaces)",
+            "Empty podSelector ({}) selects all pods in the namespace"
+          ],
+          "commands": [
+            "kubectl label namespace prod purpose=production",
+            "kubectl get pods --show-labels",
+            "kubectl get pods -l app=myapp",
+            "kubectl get namespaces --show-labels",
+            "kubectl label namespace <namespace> team=frontend",
+            "kubectl get pods -l 'app in (web,api)' --show-labels",
+            "kubectl explain networkpolicy.spec.ingress.from",
+            "kubectl explain networkpolicy.spec.ingress.from.namespaceSelector"
+          ],
+          "references": [
+            {
+              "title": "Network Policies - Selectors",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/#behavior-of-to-and-from-selectors"
+            }
+          ]
+        },
+        {
+          "name": "Default\nPolicies",
+          "description": "Deny-all and allow-all patterns",
+          "keyPoints": [
+            "Default deny all ingress: empty ingress array with podSelector: {}",
+            "Default deny all egress: empty egress array with podSelector: {}",
+            "Default allow all: no NetworkPolicy applied",
+            "Best practice: start with deny-all, then add allow rules"
+          ],
+          "commands": [
+            "# Default deny all ingress in a namespace:\n# apiVersion: networking.k8s.io/v1\n# kind: NetworkPolicy\n# metadata:\n#   name: default-deny-ingress\n# spec:\n#   podSelector: {}\n#   policyTypes: [Ingress]"
+          ],
+          "references": [
+            {
+              "title": "Default Network Policies",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/#default-policies"
+            }
+          ]
+        }
+      ]
+    },
+    "coredns": {
+      "title": "CoreDNS",
+      "subtitle": "Services & Networking > CoreDNS",
+      "parent": "services-networking",
+      "parentTitle": "Services & Networking",
+      "domainColor": "#2196F3",
+      "nodes": [
+        {
+          "name": "Service\nDiscovery",
+          "description": "DNS-based service lookup",
+          "keyPoints": [
+            "Services: <svc>.<namespace>.svc.cluster.local",
+            "Pods: <pod-ip-dashed>.<namespace>.pod.cluster.local",
+            "Headless services return pod IPs directly",
+            "SRV records for named ports"
+          ],
+          "commands": [
+            "kubectl exec <pod> -- nslookup myservice.default.svc.cluster.local",
+            "kubectl exec <pod> -- nslookup kubernetes.default",
+            "kubectl exec <pod> -- nslookup <svc>.<namespace>.svc.cluster.local",
+            "kubectl run dnsutils --image=registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3 -it --rm -- nslookup <service>",
+            "kubectl exec <pod> -- cat /etc/resolv.conf",
+            "kubectl exec <pod> -- dig SRV <svc>.<namespace>.svc.cluster.local",
+            "kubectl get svc -A (verify service exists)",
+            "kubectl get endpoints <svc> -n <namespace>"
+          ],
+          "references": [
+            {
+              "title": "DNS for Services and Pods",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/"
+            }
+          ]
+        },
+        {
+          "name": "CoreDNS\nConfiguration",
+          "description": "Corefile and plugins",
+          "keyPoints": [
+            "Corefile is stored as a ConfigMap in kube-system",
+            "Plugins: kubernetes, forward, cache, errors, log",
+            "forward: upstream DNS servers",
+            "Can add custom DNS entries and stub domains"
+          ],
+          "commands": [
+            "kubectl get configmap coredns -n kube-system -o yaml",
+            "kubectl edit configmap coredns -n kube-system",
+            "kubectl rollout restart deployment coredns -n kube-system",
+            "kubectl get pods -n kube-system -l k8s-app=kube-dns",
+            "kubectl logs -n kube-system -l k8s-app=kube-dns",
+            "kubectl describe configmap coredns -n kube-system",
+            "kubectl get deployment coredns -n kube-system",
+            "kubectl describe deployment coredns -n kube-system"
+          ],
+          "references": [
+            {
+              "title": "Customizing DNS Service",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/dns-custom-nameservers/"
+            },
+            {
+              "title": "Using CoreDNS for Service Discovery",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/coredns/"
+            }
+          ]
+        },
+        {
+          "name": "Custom DNS",
+          "description": "Custom domains and forwarding",
+          "keyPoints": [
+            "Stub domains: forward specific domains to custom DNS",
+            "Upstream DNS: configure forward plugin",
+            "Hosts plugin for custom static entries",
+            "Rewrite plugin for DNS name rewriting"
+          ],
+          "commands": [
+            "kubectl get pods -n kube-system -l k8s-app=kube-dns",
+            "kubectl logs -n kube-system -l k8s-app=kube-dns",
+            "kubectl get configmap coredns -n kube-system -o yaml",
+            "kubectl edit configmap coredns -n kube-system",
+            "kubectl rollout restart deployment coredns -n kube-system",
+            "kubectl run dnstest --image=busybox:1.28 -it --rm -- nslookup <custom-domain>",
+            "kubectl exec <pod> -- cat /etc/resolv.conf"
+          ],
+          "references": [
+            {
+              "title": "Customizing DNS Service",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/dns-custom-nameservers/"
+            }
+          ]
+        }
+      ]
+    },
+    "storage-classes": {
+      "title": "StorageClasses & Dynamic Provisioning",
+      "subtitle": "Storage > StorageClasses",
+      "parent": "storage",
+      "parentTitle": "Storage",
+      "domainColor": "#9C27B0",
+      "nodes": [
+        {
+          "name": "StorageClass\nBasics",
+          "description": "Define storage profiles",
+          "keyPoints": [
+            "Describes a 'class' of storage (SSD, HDD, etc.)",
+            "Provisioner: which volume plugin creates the volume",
+            "Parameters: provider-specific settings",
+            "reclaimPolicy: Delete or Retain",
+            "allowVolumeExpansion: enables PVC resize"
+          ],
+          "commands": [
+            "kubectl get storageclasses",
+            "kubectl get sc",
+            "kubectl describe storageclass <name>",
+            "kubectl get sc -o yaml",
+            "kubectl get sc <name> -o yaml",
+            "kubectl apply -f storageclass.yaml",
+            "kubectl delete sc <name>",
+            "kubectl patch storageclass <name> -p '{\"metadata\":{\"annotations\":{\"storageclass.kubernetes.io/is-default-class\":\"true\"}}}'",
+            "kubectl get sc -o jsonpath='{.items[?(@.metadata.annotations.storageclass\\.kubernetes\\.io/is-default-class==\"true\")].metadata.name}'"
+          ],
+          "references": [
+            {
+              "title": "Storage Classes",
+              "url": "https://kubernetes.io/docs/concepts/storage/storage-classes/"
+            }
+          ]
+        },
+        {
+          "name": "Dynamic\nProvisioning",
+          "description": "Automatic volume creation",
+          "keyPoints": [
+            "PVCs referencing a StorageClass trigger automatic PV creation",
+            "No need to pre-create PersistentVolumes",
+            "Default StorageClass: annotated with storageclass.kubernetes.io/is-default-class=true",
+            "PVC without storageClassName uses the default class"
+          ],
+          "commands": [
+            "kubectl get sc -o wide",
+            "kubectl get sc (check default class marker)",
+            "kubectl patch storageclass <name> -p '{\"metadata\":{\"annotations\":{\"storageclass.kubernetes.io/is-default-class\":\"true\"}}}'",
+            "kubectl get pvc -A (check STORAGECLASS column)",
+            "kubectl describe pvc <name> -n <namespace> (check provisioning events)",
+            "kubectl get pv (verify dynamically provisioned PVs)",
+            "kubectl apply -f pvc.yaml (trigger dynamic provisioning)"
+          ],
+          "references": [
+            {
+              "title": "Dynamic Volume Provisioning",
+              "url": "https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/"
+            }
+          ]
+        },
+        {
+          "name": "Provisioners",
+          "description": "Storage backend plugins",
+          "keyPoints": [
+            "In-tree: kubernetes.io/aws-ebs, kubernetes.io/gce-pd",
+            "CSI drivers: modern, out-of-tree provisioners",
+            "volumeBindingMode: Immediate or WaitForFirstConsumer",
+            "WaitForFirstConsumer: delays binding until pod is scheduled"
+          ],
+          "commands": [
+            "kubectl get csidrivers",
+            "kubectl describe csidrivers <name>",
+            "kubectl describe storageclass <name>",
+            "kubectl get csinodes",
+            "kubectl describe csinode <node>",
+            "kubectl get sc -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.provisioner}{\"\\t\"}{.volumeBindingMode}{\"\\n\"}{end}'",
+            "kubectl get volumeattachments"
+          ],
+          "references": [
+            {
+              "title": "StorageClass Provisioner",
+              "url": "https://kubernetes.io/docs/concepts/storage/storage-classes/#provisioner"
+            }
+          ]
+        }
+      ]
+    },
+    "volume-types": {
+      "title": "Volume Types & Access Modes",
+      "subtitle": "Storage > Volume Types & Access Modes",
+      "parent": "storage",
+      "parentTitle": "Storage",
+      "domainColor": "#9C27B0",
+      "nodes": [
+        {
+          "name": "Access\nModes",
+          "description": "How volumes can be accessed",
+          "keyPoints": [
+            "ReadWriteOnce (RWO): single node read-write",
+            "ReadOnlyMany (ROX): multiple nodes read-only",
+            "ReadWriteMany (RWX): multiple nodes read-write",
+            "ReadWriteOncePod (RWOP): single pod read-write (K8s 1.22+)"
+          ],
+          "commands": [
+            "kubectl get pv (check ACCESS MODES column)",
+            "kubectl describe pv <name>",
+            "kubectl get pvc -A (check ACCESS MODES column)",
+            "kubectl get pv -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.accessModes}{\"\\n\"}{end}'",
+            "kubectl explain pv.spec.accessModes",
+            "kubectl explain pvc.spec.accessModes",
+            "kubectl get pv <name> -o yaml | grep -A2 accessModes"
+          ],
+          "references": [
+            {
+              "title": "Access Modes",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes"
+            }
+          ]
+        },
+        {
+          "name": "Volume\nTypes",
+          "description": "Storage backend implementations",
+          "keyPoints": [
+            "emptyDir: temporary, deleted with pod",
+            "hostPath: maps host directory into pod (testing only)",
+            "nfs: Network File System mount",
+            "configMap/secret: mount config data as files",
+            "persistentVolumeClaim: reference a PVC",
+            "projected: combine multiple volume sources"
+          ],
+          "commands": [
+            "kubectl explain pod.spec.volumes",
+            "kubectl explain pod.spec.volumes.emptyDir",
+            "kubectl explain pod.spec.volumes.hostPath",
+            "kubectl explain pod.spec.volumes.persistentVolumeClaim",
+            "kubectl explain pod.spec.volumes.configMap",
+            "kubectl explain pod.spec.volumes.secret",
+            "kubectl explain pod.spec.volumes.projected",
+            "kubectl get pod <pod> -o jsonpath='{.spec.volumes}'"
+          ],
+          "references": [
+            {
+              "title": "Volumes",
+              "url": "https://kubernetes.io/docs/concepts/storage/volumes/"
+            },
+            {
+              "title": "Types of Volumes",
+              "url": "https://kubernetes.io/docs/concepts/storage/volumes/#volume-types"
+            }
+          ]
+        },
+        {
+          "name": "Volume\nModes",
+          "description": "Filesystem vs Block",
+          "keyPoints": [
+            "Filesystem (default): volume mounted as a directory",
+            "Block: volume exposed as a raw block device",
+            "Block mode requires volumeMode: Block in PV and PVC",
+            "Not all storage backends support block mode"
+          ],
+          "commands": [
+            "kubectl get pv -o wide",
+            "kubectl get pv -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.volumeMode}{\"\\n\"}{end}'",
+            "kubectl explain pv.spec.volumeMode",
+            "kubectl explain pvc.spec.volumeMode",
+            "kubectl describe pv <name> | grep -i volumemode",
+            "kubectl get pv <name> -o yaml | grep volumeMode"
+          ],
+          "references": [
+            {
+              "title": "Volume Mode",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/#volume-mode"
+            }
+          ]
+        }
+      ]
+    },
+    "persistent-volumes": {
+      "title": "Persistent Volumes & Claims",
+      "subtitle": "Storage > Persistent Volumes & Claims",
+      "parent": "storage",
+      "parentTitle": "Storage",
+      "domainColor": "#9C27B0",
+      "nodes": [
+        {
+          "name": "Persistent\nVolumes",
+          "description": "Cluster-wide storage resources",
+          "keyPoints": [
+            "Cluster-scoped resource (not namespaced)",
+            "Lifecycle independent of pods",
+            "Can be statically provisioned by admin or dynamically by StorageClass",
+            "Spec: capacity, accessModes, storageClassName, persistentVolumeReclaimPolicy"
+          ],
+          "commands": [
+            "kubectl get pv",
+            "kubectl get pv -o wide",
+            "kubectl describe pv <name>",
+            "kubectl get pv <name> -o yaml",
+            "kubectl apply -f pv.yaml",
+            "kubectl delete pv <name>",
+            "kubectl get pv --sort-by=.spec.capacity.storage",
+            "kubectl get pv -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.capacity.storage}{\"\\t\"}{.status.phase}{\"\\n\"}{end}'",
+            "kubectl explain pv.spec"
+          ],
+          "references": [
+            {
+              "title": "Persistent Volumes",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+            }
+          ]
+        },
+        {
+          "name": "Persistent\nVolume Claims",
+          "description": "User request for storage",
+          "keyPoints": [
+            "Namespaced resource - user's request for storage",
+            "Bound to a PV that matches requirements",
+            "Spec: accessModes, resources.requests.storage, storageClassName",
+            "Once bound, PVC is exclusively tied to a PV",
+            "Can expand PVC if StorageClass allows (allowVolumeExpansion: true)"
+          ],
+          "commands": [
+            "kubectl get pvc -n <namespace>",
+            "kubectl get pvc -A",
+            "kubectl describe pvc <name> -n <namespace>",
+            "kubectl get pvc <name> -o yaml",
+            "kubectl apply -f pvc.yaml",
+            "kubectl delete pvc <name> -n <namespace>",
+            "kubectl patch pvc <name> -p '{\"spec\":{\"resources\":{\"requests\":{\"storage\":\"10Gi\"}}}}'",
+            "kubectl get pvc -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.resources.requests.storage}{\"\\t\"}{.status.phase}{\"\\n\"}{end}'"
+          ],
+          "references": [
+            {
+              "title": "PersistentVolumeClaims",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims"
+            },
+            {
+              "title": "Expanding PVCs",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/#expanding-persistent-volumes-claims"
+            }
+          ]
+        },
+        {
+          "name": "Reclaim\nPolicies",
+          "description": "What happens after PVC is deleted",
+          "keyPoints": [
+            "Retain: PV kept, data preserved, manual cleanup needed",
+            "Delete: PV and underlying storage deleted automatically",
+            "Recycle: deprecated - basic scrub (rm -rf /thevolume/*)",
+            "Default for dynamic provisioning is Delete"
+          ],
+          "commands": [
+            "kubectl get pv (check RECLAIM POLICY column)",
+            "kubectl patch pv <name> -p '{\"spec\":{\"persistentVolumeReclaimPolicy\":\"Retain\"}}'",
+            "kubectl get pv -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.persistentVolumeReclaimPolicy}{\"\\n\"}{end}'",
+            "kubectl describe pv <name> | grep -i reclaim",
+            "kubectl get sc -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.reclaimPolicy}{\"\\n\"}{end}'",
+            "kubectl explain pv.spec.persistentVolumeReclaimPolicy"
+          ],
+          "references": [
+            {
+              "title": "Reclaim Policy",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaiming"
+            }
+          ]
+        },
+        {
+          "name": "PV/PVC\nBinding",
+          "description": "How PVs and PVCs match",
+          "keyPoints": [
+            "Binding is based on: access mode, storage size, StorageClass, label selectors",
+            "PVC requests minimum storage; PV can be larger",
+            "Once bound: one-to-one relationship",
+            "Pending PVC means no matching PV found"
+          ],
+          "commands": [
+            "kubectl get pv,pvc",
+            "kubectl describe pvc <name> (check Events for binding status)",
+            "kubectl get pv -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.claimRef.name}{\"\\t\"}{.status.phase}{\"\\n\"}{end}'",
+            "kubectl get pvc -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{.spec.volumeName}{\"\\t\"}{.status.phase}{\"\\n\"}{end}'",
+            "kubectl get pv | grep -i available",
+            "kubectl get pvc | grep -i pending",
+            "kubectl describe pv <name> | grep -A2 claimRef"
+          ],
+          "references": [
+            {
+              "title": "PV/PVC Binding",
+              "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/#binding"
+            }
+          ]
+        }
+      ]
+    },
+    "cluster-node-troubleshooting": {
+      "title": "Cluster & Node Troubleshooting",
+      "subtitle": "Troubleshooting > Cluster & Node",
+      "parent": "troubleshooting",
+      "parentTitle": "Troubleshooting",
+      "domainColor": "#F44336",
+      "nodes": [
+        {
+          "name": "Node\nStatus",
+          "description": "Diagnosing node issues",
+          "keyPoints": [
+            "Check node conditions: Ready, MemoryPressure, DiskPressure, PIDPressure",
+            "NotReady usually means kubelet is down or unreachable",
+            "Check kubelet service status on the node",
+            "Verify network connectivity between nodes"
+          ],
+          "commands": [
+            "kubectl get nodes",
+            "kubectl get nodes -o wide",
+            "kubectl describe node <node>",
+            "kubectl get node <node> -o jsonpath='{.status.conditions}' | jq .",
+            "kubectl get nodes -o jsonpath='{range .items[*]}{.metadata.name}{\"\\t\"}{range .status.conditions[*]}{.type}={.status}{\" \"}{end}{\"\\n\"}{end}'",
+            "systemctl status kubelet",
+            "journalctl -u kubelet -f",
+            "kubectl cordon <node>",
+            "kubectl uncordon <node>",
+            "kubectl drain <node> --ignore-daemonsets --delete-emptydir-data"
+          ],
+          "references": [
+            {
+              "title": "Troubleshooting Clusters",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/"
+            },
+            {
+              "title": "Node Status",
+              "url": "https://kubernetes.io/docs/concepts/architecture/nodes/#condition"
+            }
+          ]
+        },
+        {
+          "name": "Kubelet\nIssues",
+          "description": "Troubleshooting the kubelet",
+          "keyPoints": [
+            "Kubelet runs on every node (control plane and workers)",
+            "Config file: /var/lib/kubelet/config.yaml",
+            "Common issues: certificate errors, config mismatches, disk pressure",
+            "Check systemd logs for detailed errors"
+          ],
+          "commands": [
+            "systemctl status kubelet",
+            "systemctl restart kubelet",
+            "systemctl enable kubelet",
+            "journalctl -u kubelet --since '5 min ago'",
+            "journalctl -u kubelet -f",
+            "journalctl -u kubelet --no-pager | tail -50",
+            "cat /var/lib/kubelet/config.yaml",
+            "ls /etc/kubernetes/manifests/",
+            "kubelet --version"
+          ],
+          "references": [
+            {
+              "title": "Kubelet",
+              "url": "https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/"
+            },
+            {
+              "title": "Troubleshooting kubeadm",
+              "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/troubleshooting-kubeadm/"
+            }
+          ]
+        },
+        {
+          "name": "Kube-proxy\nIssues",
+          "description": "Service networking problems",
+          "keyPoints": [
+            "Kube-proxy manages iptables/IPVS rules for services",
+            "Runs as a DaemonSet in kube-system",
+            "Issues cause service connectivity problems",
+            "Check mode: iptables or ipvs"
+          ],
+          "commands": [
+            "kubectl get ds kube-proxy -n kube-system",
+            "kubectl get pods -n kube-system -l k8s-app=kube-proxy",
+            "kubectl logs -n kube-system -l k8s-app=kube-proxy",
+            "kubectl describe ds kube-proxy -n kube-system",
+            "kubectl get configmap kube-proxy -n kube-system -o yaml",
+            "kubectl edit configmap kube-proxy -n kube-system",
+            "iptables -t nat -L KUBE-SERVICES",
+            "iptables -t nat -L KUBE-NODEPORTS",
+            "kubectl rollout restart ds kube-proxy -n kube-system"
+          ],
+          "references": [
+            {
+              "title": "kube-proxy",
+              "url": "https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/"
+            },
+            {
+              "title": "Virtual IPs and Service Proxies",
+              "url": "https://kubernetes.io/docs/reference/networking/virtual-ips/"
+            }
+          ]
+        },
+        {
+          "name": "Certificate\nProblems",
+          "description": "TLS and cert troubleshooting",
+          "keyPoints": [
+            "Expired certificates cause API server connection failures",
+            "Check expiration dates of all cluster certificates",
+            "Certificates in /etc/kubernetes/pki/",
+            "Renew with kubeadm certs renew"
+          ],
+          "commands": [
+            "kubeadm certs check-expiration",
+            "openssl x509 -in /etc/kubernetes/pki/apiserver.crt -noout -text",
+            "openssl x509 -in /etc/kubernetes/pki/apiserver.crt -noout -dates",
+            "kubeadm certs renew all",
+            "kubeadm certs renew apiserver",
+            "ls /etc/kubernetes/pki/",
+            "openssl x509 -in /etc/kubernetes/pki/ca.crt -noout -subject -issuer",
+            "kubectl get csr",
+            "kubectl certificate approve <csr-name>"
+          ],
+          "references": [
+            {
+              "title": "Certificate Management with kubeadm",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/"
+            },
+            {
+              "title": "PKI Certificates",
+              "url": "https://kubernetes.io/docs/setup/best-practices/certificates/"
+            }
+          ]
+        }
+      ]
+    },
+    "cluster-components": {
+      "title": "Cluster Components",
+      "subtitle": "Troubleshooting > Cluster Components",
+      "parent": "troubleshooting",
+      "parentTitle": "Troubleshooting",
+      "domainColor": "#F44336",
+      "nodes": [
+        {
+          "name": "API Server",
+          "description": "kube-apiserver troubleshooting",
+          "keyPoints": [
+            "Central component: all communication goes through it",
+            "Runs as a static pod on control plane nodes",
+            "Check manifests in /etc/kubernetes/manifests/",
+            "Common issues: certificate errors, etcd connectivity, resource exhaustion"
+          ],
+          "commands": [
+            "kubectl get pods -n kube-system | grep apiserver",
+            "kubectl logs kube-apiserver-<node> -n kube-system",
+            "kubectl logs kube-apiserver-<node> -n kube-system --tail=100",
+            "cat /etc/kubernetes/manifests/kube-apiserver.yaml",
+            "crictl ps | grep apiserver",
+            "crictl logs <apiserver-container-id>",
+            "kubectl get --raw /healthz",
+            "kubectl get --raw /livez",
+            "kubectl get --raw /readyz",
+            "curl -k https://localhost:6443/healthz"
+          ],
+          "references": [
+            {
+              "title": "kube-apiserver",
+              "url": "https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/"
+            },
+            {
+              "title": "Kubernetes Components",
+              "url": "https://kubernetes.io/docs/concepts/overview/components/#kube-apiserver"
+            }
+          ]
+        },
+        {
+          "name": "Scheduler",
+          "description": "kube-scheduler troubleshooting",
+          "keyPoints": [
+            "Assigns pods to nodes based on resource requirements",
+            "Runs as a static pod on control plane",
+            "Pending pods often indicate scheduler issues",
+            "Check for: resource constraints, taints, affinity rules"
+          ],
+          "commands": [
+            "kubectl get pods -n kube-system | grep scheduler",
+            "kubectl logs kube-scheduler-<node> -n kube-system",
+            "kubectl logs kube-scheduler-<node> -n kube-system --tail=100",
+            "cat /etc/kubernetes/manifests/kube-scheduler.yaml",
+            "kubectl describe pod <pending-pod> (check Events)",
+            "kubectl get events --field-selector reason=FailedScheduling",
+            "crictl ps | grep scheduler",
+            "crictl logs <scheduler-container-id>"
+          ],
+          "references": [
+            {
+              "title": "kube-scheduler",
+              "url": "https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/"
+            },
+            {
+              "title": "Kubernetes Scheduler",
+              "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/"
+            }
+          ]
+        },
+        {
+          "name": "Controller\nManager",
+          "description": "kube-controller-manager troubleshooting",
+          "keyPoints": [
+            "Runs core control loops (ReplicaSet, Deployment, Node, etc.)",
+            "Static pod on control plane nodes",
+            "Issues cause: pods not being created, nodes not updating, etc.",
+            "Check leader election in HA setups"
+          ],
+          "commands": [
+            "kubectl get pods -n kube-system | grep controller-manager",
+            "kubectl logs kube-controller-manager-<node> -n kube-system",
+            "kubectl logs kube-controller-manager-<node> -n kube-system --tail=100",
+            "cat /etc/kubernetes/manifests/kube-controller-manager.yaml",
+            "crictl ps | grep controller-manager",
+            "crictl logs <controller-manager-container-id>",
+            "kubectl get lease -n kube-system (check leader election)",
+            "kubectl describe lease kube-controller-manager -n kube-system"
+          ],
+          "references": [
+            {
+              "title": "kube-controller-manager",
+              "url": "https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/"
+            },
+            {
+              "title": "Kubernetes Components",
+              "url": "https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager"
+            }
+          ]
+        },
+        {
+          "name": "etcd",
+          "description": "etcd troubleshooting",
+          "keyPoints": [
+            "Stores all cluster state and configuration",
+            "Performance issues affect entire cluster",
+            "Common issues: disk I/O latency, member connectivity, space quota exceeded",
+            "etcdctl for direct inspection and management"
+          ],
+          "commands": [
+            "kubectl get pods -n kube-system | grep etcd",
+            "kubectl logs etcd-<node> -n kube-system",
+            "kubectl logs etcd-<node> -n kube-system --tail=100",
+            "cat /etc/kubernetes/manifests/etcd.yaml",
+            "crictl ps | grep etcd",
+            "ETCDCTL_API=3 etcdctl endpoint health --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl member list --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl endpoint status --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key --write-out=table",
+            "ETCDCTL_API=3 etcdctl snapshot save /tmp/etcd-backup.db --endpoints=https://127.0.0.1:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key",
+            "ETCDCTL_API=3 etcdctl snapshot restore /tmp/etcd-backup.db --data-dir=/var/lib/etcd-restored"
+          ],
+          "references": [
+            {
+              "title": "Operating etcd Clusters",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/"
+            },
+            {
+              "title": "etcd Component",
+              "url": "https://kubernetes.io/docs/concepts/overview/components/#etcd"
+            }
+          ]
+        }
+      ]
+    },
+    "monitoring": {
+      "title": "Monitoring & Resource Usage",
+      "subtitle": "Troubleshooting > Monitoring",
+      "parent": "troubleshooting",
+      "parentTitle": "Troubleshooting",
+      "domainColor": "#F44336",
+      "nodes": [
+        {
+          "name": "kubectl top",
+          "description": "Resource usage commands",
+          "keyPoints": [
+            "Shows CPU and memory usage for pods and nodes",
+            "Requires metrics-server to be installed",
+            "Real-time snapshot, not historical data",
+            "Useful for identifying resource-hungry workloads"
+          ],
+          "commands": [
+            "kubectl top nodes",
+            "kubectl top node <node>",
+            "kubectl top pods -A",
+            "kubectl top pods -n <namespace>",
+            "kubectl top pods --containers -n <namespace>",
+            "kubectl top pods --sort-by=memory",
+            "kubectl top pods --sort-by=cpu",
+            "kubectl get apiservice v1beta1.metrics.k8s.io (check metrics-server)",
+            "kubectl get pods -n kube-system | grep metrics-server"
+          ],
+          "references": [
+            {
+              "title": "Resource Metrics Pipeline",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/"
+            },
+            {
+              "title": "Tools for Monitoring Resources",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-usage-monitoring/"
+            }
+          ]
+        },
+        {
+          "name": "Resource\nQuotas",
+          "description": "Namespace resource limits",
+          "keyPoints": [
+            "Limit total resource consumption per namespace",
+            "Can limit: CPU, memory, pods, services, PVCs, etc.",
+            "Requests and limits can be constrained separately",
+            "LimitRange sets default/min/max per container"
+          ],
+          "commands": [
+            "kubectl get resourcequotas -n <namespace>",
+            "kubectl get resourcequotas -A",
+            "kubectl describe resourcequota <name> -n <namespace>",
+            "kubectl create quota my-quota --hard=pods=10,requests.cpu=4,requests.memory=8Gi -n <namespace>",
+            "kubectl get limitranges -n <namespace>",
+            "kubectl describe limitrange <name> -n <namespace>",
+            "kubectl apply -f resourcequota.yaml",
+            "kubectl delete resourcequota <name> -n <namespace>",
+            "kubectl get resourcequota <name> -o yaml -n <namespace>"
+          ],
+          "references": [
+            {
+              "title": "Resource Quotas",
+              "url": "https://kubernetes.io/docs/concepts/policy/resource-quotas/"
+            },
+            {
+              "title": "Limit Ranges",
+              "url": "https://kubernetes.io/docs/concepts/policy/limit-range/"
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "description": "Cluster event monitoring",
+          "keyPoints": [
+            "Events show what's happening in the cluster",
+            "Types: Normal and Warning",
+            "Events expire after 1 hour by default",
+            "Critical for troubleshooting pod/node issues"
+          ],
+          "commands": [
+            "kubectl get events -A --sort-by='.lastTimestamp'",
+            "kubectl get events -n <namespace>",
+            "kubectl get events --field-selector type=Warning",
+            "kubectl get events --field-selector reason=FailedScheduling",
+            "kubectl get events --field-selector involvedObject.kind=Pod",
+            "kubectl get events --field-selector involvedObject.name=<pod-name>",
+            "kubectl describe pod <pod> (check Events at bottom)",
+            "kubectl get events -n <namespace> --sort-by='.metadata.creationTimestamp' | tail -20",
+            "kubectl get events -A -o json | jq '.items[] | select(.type==\"Warning\")'"
+          ],
+          "references": [
+            {
+              "title": "Viewing Events",
+              "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_events/"
+            },
+            {
+              "title": "Event API",
+              "url": "https://kubernetes.io/docs/reference/kubernetes-api/cluster-resources/event-v1/"
+            }
+          ]
+        }
+      ]
+    },
+    "container-logs": {
+      "title": "Container Output Streams",
+      "subtitle": "Troubleshooting > Container Logs",
+      "parent": "troubleshooting",
+      "parentTitle": "Troubleshooting",
+      "domainColor": "#F44336",
+      "nodes": [
+        {
+          "name": "kubectl logs",
+          "description": "View container logs",
+          "keyPoints": [
+            "Show stdout/stderr from containers",
+            "Use -c for specific container in multi-container pods",
+            "Use -p for previous container instance (after crash)",
+            "Use -f for streaming (follow) logs",
+            "Use --since for time-based filtering"
+          ],
+          "commands": [
+            "kubectl logs <pod>",
+            "kubectl logs <pod> -c <container>",
+            "kubectl logs <pod> --previous",
+            "kubectl logs <pod> -f --tail=100",
+            "kubectl logs -l app=myapp --all-containers"
+          ],
+          "references": [
+            {
+              "title": "kubectl logs",
+              "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/"
+            },
+            {
+              "title": "Logging Architecture",
+              "url": "https://kubernetes.io/docs/concepts/cluster-administration/logging/"
+            }
+          ]
+        },
+        {
+          "name": "Logging\nArchitecture",
+          "description": "Kubernetes logging patterns",
+          "keyPoints": [
+            "Node-level: container runtime captures stdout/stderr",
+            "Logs stored at /var/log/containers/ and /var/log/pods/",
+            "Cluster-level: use log aggregators (EFK, Loki, Fluentd)",
+            "Sidecar pattern for custom log processing"
+          ],
+          "commands": [
+            "ls /var/log/containers/",
+            "ls /var/log/pods/",
+            "crictl logs <container-id>"
+          ],
+          "references": [
+            {
+              "title": "Logging Architecture",
+              "url": "https://kubernetes.io/docs/concepts/cluster-administration/logging/"
+            }
+          ]
+        },
+        {
+          "name": "Application\nDebugging",
+          "description": "Debug running containers",
+          "keyPoints": [
+            "kubectl exec: run commands inside a container",
+            "kubectl debug: create ephemeral debug container",
+            "Check container status: Running, Waiting, Terminated",
+            "Check exit codes and restart reasons",
+            "Ephemeral containers don't require image restart"
+          ],
+          "commands": [
+            "kubectl exec -it <pod> -- /bin/sh",
+            "kubectl debug <pod> -it --image=busybox",
+            "kubectl describe pod <pod> (check container statuses)",
+            "kubectl get pod <pod> -o jsonpath='{.status.containerStatuses[*].state}'"
+          ],
+          "references": [
+            {
+              "title": "Debug Running Pods",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/"
+            },
+            {
+              "title": "Ephemeral Containers",
+              "url": "https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/"
+            },
+            {
+              "title": "Troubleshoot Applications",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-application/"
+            }
+          ]
+        }
+      ]
+    },
+    "network-troubleshooting": {
+      "title": "Services & Network Troubleshooting",
+      "subtitle": "Troubleshooting > Network Troubleshooting",
+      "parent": "troubleshooting",
+      "parentTitle": "Troubleshooting",
+      "domainColor": "#F44336",
+      "nodes": [
+        {
+          "name": "DNS\nDebugging",
+          "description": "Troubleshoot DNS resolution",
+          "keyPoints": [
+            "Use a debug pod with DNS tools (dnsutils, busybox)",
+            "Check CoreDNS pods are running",
+            "Verify /etc/resolv.conf in pods",
+            "Test service name resolution"
+          ],
+          "commands": [
+            "kubectl run dnsutils --image=registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3 -it --rm -- nslookup kubernetes.default",
+            "kubectl run dnsutils --image=registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3 -it --rm -- nslookup <svc>.<namespace>.svc.cluster.local",
+            "kubectl run dnsutils --image=registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3 -it --rm -- dig <svc>.<namespace>.svc.cluster.local",
+            "kubectl get pods -n kube-system -l k8s-app=kube-dns",
+            "kubectl logs -n kube-system -l k8s-app=kube-dns",
+            "kubectl exec <pod> -- cat /etc/resolv.conf",
+            "kubectl get configmap coredns -n kube-system -o yaml",
+            "kubectl get svc kube-dns -n kube-system",
+            "kubectl get endpoints kube-dns -n kube-system"
+          ],
+          "references": [
+            {
+              "title": "Debugging DNS Resolution",
+              "url": "https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/"
+            }
+          ]
+        },
+        {
+          "name": "Service\nDebugging",
+          "description": "Troubleshoot service connectivity",
+          "keyPoints": [
+            "Verify service exists and has endpoints",
+            "Check pod labels match service selector",
+            "Test connectivity from within the cluster",
+            "Check kube-proxy and iptables rules"
+          ],
+          "commands": [
+            "kubectl get svc <service>",
+            "kubectl get svc <service> -o wide",
+            "kubectl get endpoints <service>",
+            "kubectl describe svc <service>",
+            "kubectl get svc <service> -o yaml",
+            "kubectl exec <pod> -- curl <service>:<port>",
+            "kubectl exec <pod> -- wget -O- <service>:<port>",
+            "kubectl exec <pod> -- nslookup <service>",
+            "kubectl get pods -l <selector-key>=<selector-value> (verify matching pods)"
+          ],
+          "references": [
+            {
+              "title": "Debug Services",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-service/"
+            }
+          ]
+        },
+        {
+          "name": "Pod\nConnectivity",
+          "description": "Troubleshoot pod-to-pod networking",
+          "keyPoints": [
+            "Verify pod IPs are reachable from other pods",
+            "Check CNI plugin is healthy",
+            "Verify no network policies blocking traffic",
+            "Test with curl, wget, ping from debug pods"
+          ],
+          "commands": [
+            "kubectl get pods -o wide",
+            "kubectl exec <pod1> -- ping <pod2-ip>",
+            "kubectl exec <pod1> -- curl <pod2-ip>:<port>",
+            "kubectl get networkpolicies -n <namespace>",
+            "kubectl describe networkpolicy <name> -n <namespace>",
+            "kubectl debug -it <pod> --image=nicolaka/netshoot -- bash",
+            "kubectl run netshoot --image=nicolaka/netshoot -it --rm -- bash",
+            "kubectl exec <pod> -- traceroute <pod2-ip>",
+            "kubectl get pods -n kube-system -l k8s-app=calico-node (check CNI status)"
+          ],
+          "references": [
+            {
+              "title": "Debug Services",
+              "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-service/"
+            },
+            {
+              "title": "Cluster Networking",
+              "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/"
+            }
+          ]
+        },
+        {
+          "name": "Ingress\nDebugging",
+          "description": "Troubleshoot external access",
+          "keyPoints": [
+            "Verify Ingress controller is running",
+            "Check Ingress resource configuration",
+            "Verify backend service and endpoints exist",
+            "Check TLS certificates if using HTTPS"
+          ],
+          "commands": [
+            "kubectl get ingress",
+            "kubectl get ingress -A",
+            "kubectl describe ingress <name>",
+            "kubectl get ingress <name> -o yaml",
+            "kubectl get pods -n ingress-nginx",
+            "kubectl logs -n ingress-nginx <controller-pod>",
+            "kubectl get svc -n ingress-nginx",
+            "kubectl describe svc -n ingress-nginx <service>",
+            "curl -H 'Host: <hostname>' http://<ingress-ip>"
+          ],
+          "references": [
+            {
+              "title": "Ingress",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/"
+            },
+            {
+              "title": "Ingress Controllers",
+              "url": "https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

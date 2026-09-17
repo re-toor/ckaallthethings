@@ -1,0 +1,681 @@
+/* CKA Mind Map - Dark Kubernetes Theme */
+
+/* === Reset & Base === */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --k8s-blue: #326CE5;
+  --bg-dark: #0d1117;
+  --bg-card: #161b22;
+  --bg-panel: #1c2333;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: var(--font-family);
+  background: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Header === */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  padding-top: max(12px, env(safe-area-inset-top, 0px));
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
+  background: linear-gradient(180deg, rgba(13, 17, 23, 0.98) 0%, rgba(13, 17, 23, 0.92) 100%);
+  border-bottom: 1px solid var(--border-subtle);
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.logo-text {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--k8s-blue);
+}
+
+.logo-version {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  padding: 2px 8px;
+  background: rgba(50, 108, 229, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(50, 108, 229, 0.2);
+}
+
+/* === Breadcrumbs === */
+#breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.breadcrumb-link {
+  color: var(--k8s-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
+}
+
+.breadcrumb-link:hover {
+  color: #5a8ef0;
+  text-decoration: underline;
+}
+
+.breadcrumb-sep {
+  color: var(--text-muted);
+  font-size: 16px;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.breadcrumb-current {
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* === Study Guides Menu === */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  overflow: visible;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.github-link:hover {
+  color: var(--text-primary);
+}
+
+.guides-dropdown {
+  position: relative;
+}
+
+.guides-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(50, 108, 229, 0.1);
+  border: 1px solid rgba(50, 108, 229, 0.25);
+  border-radius: 8px;
+  color: var(--k8s-blue);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.guides-dropdown-btn:hover {
+  background: rgba(50, 108, 229, 0.18);
+  border-color: rgba(50, 108, 229, 0.4);
+  color: #5a8ef0;
+}
+
+.guides-dropdown-btn .dropdown-arrow {
+  font-size: 10px;
+  transition: transform 0.2s;
+}
+
+.guides-dropdown.open .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.guides-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 260px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: all 0.2s;
+  z-index: 100;
+}
+
+.guides-dropdown.open .guides-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.guides-dropdown-menu a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 13px;
+  transition: all 0.15s;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.guides-dropdown-menu a:last-child {
+  border-bottom: none;
+}
+
+.guides-dropdown-menu a:hover {
+  background: rgba(50, 108, 229, 0.08);
+  color: var(--text-primary);
+}
+
+.guides-dropdown-menu .guide-icon {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.guides-dropdown-menu .guide-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.guides-dropdown-menu .guide-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 13px;
+}
+
+.guides-dropdown-menu .guide-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* === Subtitle === */
+.subtitle-bar {
+  text-align: center;
+  padding: 6px 24px;
+  background: rgba(50, 108, 229, 0.04);
+  border-bottom: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+}
+
+#subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  letter-spacing: 0.3px;
+}
+
+.subtitle-guide-link {
+  display: inline-block;
+  margin-left: 12px;
+  padding: 3px 12px;
+  background: rgba(255, 152, 0, 0.1);
+  border: 1px solid rgba(255, 152, 0, 0.3);
+  border-radius: 12px;
+  color: #FF9800;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  vertical-align: middle;
+}
+
+.subtitle-guide-link:hover {
+  background: rgba(255, 152, 0, 0.2);
+  border-color: rgba(255, 152, 0, 0.5);
+  color: #FFB74D;
+  text-decoration: none;
+}
+
+/* === Mind Map Container === */
+#mindmap-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 50% 50%, rgba(50, 108, 229, 0.04) 0%, transparent 60%),
+    var(--bg-dark);
+}
+
+/* Grid pattern background */
+#mindmap-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+#mindmap-container svg {
+  display: block;
+}
+
+/* === Mind Map Nodes === */
+.branch-node {
+  transition: transform 0.2s ease;
+}
+
+.branch-node.clickable:hover,
+.branch-node.leaf:hover {
+  filter: url(#glow);
+}
+
+.branch-node.clickable rect,
+.branch-node.leaf rect {
+  transition: all 0.2s ease;
+}
+
+/* === Tooltip === */
+.mindmap-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--bg-panel);
+  color: var(--text-primary);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  white-space: nowrap;
+  z-index: 20;
+  opacity: 0;
+  transform: translate(-50%, 0) scale(0.9);
+  transition: opacity 0.2s, transform 0.2s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* === Back Button === */
+.back-button circle {
+  transition: all 0.2s ease;
+}
+
+.back-button:hover circle {
+  fill: rgba(255, 255, 255, 0.15);
+  stroke: rgba(255, 255, 255, 0.5);
+}
+
+/* === Detail Panel (Leaf Node Content) === */
+.detail-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.detail-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.detail-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--k8s-blue);
+  border-radius: 16px;
+  width: 90%;
+  max-width: 640px;
+  max-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(20px) scale(0.95);
+  transition: transform 0.3s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.detail-panel-top {
+  flex-shrink: 0;
+  padding: 28px 32px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.detail-panel-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 32px 28px;
+}
+
+.detail-overlay.active .detail-panel {
+  transform: translateY(0) scale(1);
+}
+
+.detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.detail-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.detail-close {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: var(--text-secondary);
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.detail-close:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--text-primary);
+}
+
+.detail-description {
+  color: var(--text-secondary);
+  font-size: 15px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.detail-section {
+  margin-bottom: 24px;
+}
+
+.detail-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.detail-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.detail-section ul li {
+  position: relative;
+  padding: 8px 0 8px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.detail-section ul li:last-child {
+  border-bottom: none;
+}
+
+.detail-section ul li::before {
+  content: '\25B8';
+  position: absolute;
+  left: 0;
+  color: var(--k8s-blue);
+  font-size: 12px;
+}
+
+.detail-section pre {
+  background: var(--bg-dark);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  overflow-x: auto;
+}
+
+.detail-section pre code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: #79c0ff;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* === References === */
+.detail-references {
+  list-style: none;
+  padding: 0;
+}
+
+.detail-references li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  position: relative;
+  padding-left: 20px;
+}
+
+.detail-references li:last-child {
+  border-bottom: none;
+}
+
+.detail-references li::before {
+  content: '\1F4D6';
+  position: absolute;
+  left: 0;
+  font-size: 11px;
+}
+
+.detail-ref-link {
+  color: var(--k8s-blue);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  transition: color 0.2s;
+}
+
+.detail-ref-link:hover {
+  color: #5a8ef0;
+  text-decoration: underline;
+}
+
+.detail-ref-url {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  word-break: break-all;
+}
+
+/* Scrollbar */
+.detail-panel-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.detail-panel-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.detail-panel-body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.detail-panel-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* === Footer === */
+.footer {
+  padding: 8px 24px;
+  padding-bottom: max(8px, env(safe-area-inset-bottom, 0px));
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--bg-dark);
+  border-top: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+}
+
+.footer a {
+  color: var(--k8s-blue);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-credit {
+  color: var(--k8s-blue);
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.footer-credit strong {
+  color: var(--text-primary);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 16px;
+    align-items: stretch;
+  }
+
+  .header-right {
+    justify-content: space-between;
+  }
+
+  .breadcrumb-link {
+    max-width: 200px;
+  }
+
+  .breadcrumb-early {
+    display: none;
+  }
+
+  .detail-panel {
+    width: 95%;
+    max-height: 85vh;
+  }
+
+  .detail-panel-top {
+    padding: 20px 20px 0;
+  }
+
+  .detail-panel-body {
+    padding: 0 20px 20px;
+  }
+
+  .detail-header h2 {
+    font-size: 18px;
+  }
+
+  .logo-version {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  #breadcrumbs {
+    font-size: 11px;
+  }
+
+  .logo-text {
+    font-size: 13px;
+  }
+}
+
+/* === CSS Animations (replaces D3 transitions) === */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.anim-fade {
+  animation: fadeIn 0.5s ease both;
+}
+
+/* Tooltip visible state */
+.mindmap-tooltip.visible {
+  opacity: 1;
+  transform: translate(-50%, 0) scale(1);
+}
+
+/* === Kubernetes Logo SVG inline === */
+.k8s-logo {
+  display: inline-block;
+}
