@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Tài liệu ôn thi CKA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Non-render-blocking: load external CSS asynchronously so inline CSS paints immediately -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="../css/style.css?v=vi-1.35-20260917" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="../css/guide.css?v=vi-1.35-20260917" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guide.css">
+  </noscript>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☸</text></svg>">
+  <!-- Critical inline CSS: instant dark background + loading spinner before external CSS loads -->
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { background: #0d1117; color: #e6edf3; height: 100%; width: 100%; }
+    body { display: flex; flex-direction: column; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; overflow: hidden; }
+    .header {
+      display: flex; align-items: center; justify-content: space-between; padding: 12px 24px;
+      padding-top: max(12px, env(safe-area-inset-top, 0px));
+      padding-left: max(24px, env(safe-area-inset-left, 0px));
+      padding-right: max(24px, env(safe-area-inset-right, 0px));
+      background: linear-gradient(180deg, rgba(13,17,23,0.98) 0%, rgba(13,17,23,0.92) 100%);
+      border-bottom: 1px solid rgba(255,255,255,0.08); z-index: 10; flex-shrink: 0;
+    }
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .logo { display: flex; align-items: center; gap: 8px; text-decoration: none; color: #e6edf3; }
+    .logo-icon { width: 32px; height: 32px; }
+    .logo-text { font-size: 15px; font-weight: 700; color: #326CE5; }
+    .logo-version { font-size: 11px; color: #6e7681; padding: 2px 8px; background: rgba(50,108,229,0.1); border-radius: 10px; border: 1px solid rgba(50,108,229,0.2); }
+    .header-right { display: flex; align-items: center; gap: 16px; }
+    .guide-nav { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+    .breadcrumb-link { color: #326CE5; text-decoration: none; }
+    .breadcrumb-sep { color: #6e7681; font-size: 16px; }
+    .breadcrumb-current { color: #8b949e; }
+    .guides-dropdown-btn {
+      display: flex; align-items: center; gap: 6px; padding: 6px 14px;
+      background: rgba(50,108,229,0.1); border: 1px solid rgba(50,108,229,0.25);
+      border-radius: 8px; color: #326CE5; font-size: 13px; font-weight: 600;
+      cursor: pointer; font-family: inherit; white-space: nowrap;
+    }
+    .guides-dropdown-menu { position: absolute; top: calc(100% + 6px); right: 0; opacity: 0; visibility: hidden; }
+    .guide-layout { display: flex; flex: 1; overflow: hidden; }
+    .guide-sidebar {
+      width: 300px; min-width: 300px; background: #161b22;
+      border-right: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column;
+    }
+    .sidebar-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 20px; border-bottom: 1px solid rgba(255,255,255,0.08); flex-shrink: 0;
+    }
+    .sidebar-header h3 { font-size: 13px; font-weight: 600; color: #8b949e; text-transform: uppercase; letter-spacing: 0.8px; white-space: nowrap; }
+    .sidebar-toggle {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+      color: #8b949e; font-size: 16px; width: 32px; height: 32px; border-radius: 6px;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+    }
+    .sidebar-loading { color: #6e7681; font-size: 13px; padding: 16px 20px; }
+    .guide-content { flex: 1; overflow-y: auto; padding: 32px 48px 60px; min-width: 0; }
+    .guide-loading {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      height: 300px; color: #6e7681; gap: 16px; padding-top: 20vh;
+    }
+    .loading-spinner {
+      width: 40px; height: 40px;
+      border: 3px solid rgba(255,255,255,0.08); border-top-color: #326CE5;
+      border-radius: 50%; animation: _spin 0.8s linear infinite;
+    }
+    @keyframes _spin { to { transform: rotate(360deg); } }
+    .guide-article { display: none; }
+    .footer { padding: 8px 24px; padding-bottom: max(8px, env(safe-area-inset-bottom, 0px)); text-align: center; font-size: 11px; color: #6e7681; background: #0d1117; border-top: 1px solid rgba(255,255,255,0.08); flex-shrink: 0; }
+    .guide-footer { padding: 12px 24px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+    .footer-credit { color: #326CE5; font-size: 12px; }
+    .footer-credit strong { color: #e6edf3; }
+    @media (max-width: 768px) {
+      .guide-back-btn { display: none; }
+      .guide-sidebar { position: fixed; top: 0; left: 0; z-index: 200; height: 100vh; width: 300px; min-width: 300px; transform: translateX(-100%); transition: transform 0.3s; }
+      .guide-sidebar.mobile-open { transform: translateX(0); }
+      .guide-content { padding: 20px 16px 60px; }
+    }
+  </style>
+</head>
+<body class="guide-body">
+
+  <header class="header">
+    <div class="header-left">
+      <a href="../index.html#main" class="logo">
+        <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="#326CE5" stroke-width="5"/>
+          <circle cx="50" cy="50" r="8" fill="#326CE5"/>
+          <line x1="50" y1="10" x2="50" y2="30" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="50" y1="70" x2="50" y2="90" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="12" y1="28" x2="30" y2="40" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="70" y1="60" x2="88" y2="72" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="12" y1="72" x2="30" y2="60" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <line x1="70" y1="40" x2="88" y2="28" stroke="#326CE5" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="50" cy="8" r="5" fill="#326CE5"/>
+          <circle cx="50" cy="92" r="5" fill="#326CE5"/>
+          <circle cx="10" cy="27" r="5" fill="#326CE5"/>
+          <circle cx="90" cy="73" r="5" fill="#326CE5"/>
+          <circle cx="10" cy="73" r="5" fill="#326CE5"/>
+          <circle cx="90" cy="27" r="5" fill="#326CE5"/>
+        </svg>
+        <span class="logo-text">Sơ đồ tư duy CKA</span>
+      </a>
+      <span class="logo-version">CKA v1.35 | Tiếng Việt</span>
+    </div>
+    <div class="header-right">
+      <nav class="guide-nav">
+        <a href="../index.html#main" class="breadcrumb-link">Sơ đồ tư duy</a>
+        <span class="breadcrumb-sep">&rsaquo;</span>
+        <span class="breadcrumb-current" id="guide-title-breadcrumb">Tài liệu ôn tập</span>
+      </nav>
+      <a href="https://github.com/compufreq/cka-mindmap" target="_blank" rel="noopener noreferrer" class="github-link" title="Xem trên GitHub">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+      <div class="guides-dropdown" id="guides-dropdown">
+        <button class="guides-dropdown-btn" id="guides-dropdown-btn">
+          <span>Tài liệu ôn tập</span>
+          <span class="dropdown-arrow">&#9660;</span>
+        </button>
+        <div class="guides-dropdown-menu">
+          <a href="guide.html?id=kubernetes-1.35"><span class="guide-icon">&#128214;</span><span class="guide-info"><span class="guide-name">Cập nhật CKA Kubernetes 1.35</span><span class="guide-desc">Phiên bản thi, thay đổi và bài thực hành</span></span></a>
+          <a href="guide.html?id=kubernetes">
+            <span class="guide-icon">&#9784;</span>
+            <span class="guide-info">
+              <span class="guide-name">Tài liệu Kubernetes CKA</span>
+              <span class="guide-desc">Tài liệu kỹ thuật đầy đủ &bull; 30 chương</span>
+            </span>
+          </a>
+          <a href="guide.html?id=linux-networking">
+            <span class="guide-icon">&#128421;</span>
+            <span class="guide-info">
+              <span class="guide-name">Tài liệu mạng Linux</span>
+              <span class="guide-desc">Tra cứu lệnh mạng &bull; 56 mục</span>
+            </span>
+          </a>
+          <a href="guide.html?id=gateway-api">
+            <span class="guide-icon">&#128268;</span>
+            <span class="guide-info">
+              <span class="guide-name">Hướng dẫn đầy đủ Gateway API</span>
+              <span class="guide-desc">Quản lý lưu lượng vào cụm &bull; 20 mục</span>
+            </span>
+          </a>
+          <a href="guide.html?id=gateway-api-cka">
+            <span class="guide-icon">&#9997;</span>
+            <span class="guide-info">
+              <span class="guide-name">Thực hành Gateway API từng bước</span>
+              <span class="guide-desc">Thực hành từng bước &bull; 10 bài</span>
+            </span>
+          </a>
+          <a href="guide.html?id=ingress">
+            <span class="guide-icon">&#128295;</span>
+            <span class="guide-info">
+              <span class="guide-name">Hướng dẫn đầy đủ Ingress</span>
+              <span class="guide-desc">Định tuyến HTTP và kết thúc TLS &bull; 14 mục</span>
+            </span>
+          </a>
+          <a href="guide.html?id=ingress-cka">
+            <span class="guide-icon">&#9997;</span>
+            <span class="guide-info">
+              <span class="guide-name">Thực hành Ingress từng bước</span>
+              <span class="guide-desc">Thực hành từng bước</span>
+            </span>
+          </a>
+          <a href="guide.html?id=coredns">
+            <span class="guide-icon">&#127760;</span>
+            <span class="guide-info">
+              <span class="guide-name">Hướng dẫn đầy đủ CoreDNS</span>
+              <span class="guide-desc">DNS và khám phá dịch vụ &bull; 12 mục</span>
+            </span>
+          </a>
+          <a href="guide.html?id=coredns-cka">
+            <span class="guide-icon">&#9997;</span>
+            <span class="guide-info">
+              <span class="guide-name">Thực hành CoreDNS từng bước</span>
+              <span class="guide-desc">Thực hành từng bước</span>
+            </span>
+          </a>
+          <a href="guide.html?id=k8s-install">
+            <span class="guide-icon">&#9881;</span>
+            <span class="guide-info">
+              <span class="guide-name">Lab Kubernetes nhiều control plane</span>
+              <span class="guide-desc">Lab HAProxy + 2 control plane + 2 worker</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search Bar - hidden by default, shown when activated -->
+  <div class="guide-search-bar" id="guide-search-bar">
+    <div class="search-bar-inner">
+      <div class="search-input-group">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-.82 4.74a6 6 0 1 1 1.06-1.06l3.04 3.04a.75.75 0 1 1-1.06 1.06l-3.04-3.04Z"/>
+        </svg>
+        <input type="text" id="search-input" class="search-input"
+               placeholder="Tìm trong tài liệu..." autocomplete="off" spellcheck="false">
+      </div>
+      <div class="search-filters">
+        <button class="search-filter-btn" id="filter-match-word" title="Khớp toàn bộ từ (Alt+W)">
+          <span class="filter-label">W</span>
+        </button>
+        <button class="search-filter-btn" id="filter-case-sensitive" title="Phân biệt hoa/thường (Alt+C)">
+          <span class="filter-label">Aa</span>
+        </button>
+      </div>
+      <div class="search-nav">
+        <span class="search-count" id="search-count"></span>
+        <button class="search-nav-btn" id="search-prev" title="Kết quả trước (Shift+Enter)" disabled>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M3.22 9.78a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.751.751 0 0 1-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 0 1-1.06 0Z"/>
+          </svg>
+        </button>
+        <button class="search-nav-btn" id="search-next" title="Kết quả tiếp (Enter)" disabled>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M12.78 6.22a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L3.22 7.28a.751.751 0 0 1 1.06-1.06L8 9.94l3.72-3.72a.75.75 0 0 1 1.06 0Z"/>
+          </svg>
+        </button>
+      </div>
+      <button class="search-close-btn" id="search-close" title="Đóng tìm kiếm (Escape)">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="guide-layout">
+    <!-- Sidebar TOC -->
+    <aside class="guide-sidebar" id="guide-sidebar">
+      <div class="sidebar-header">
+        <h3>Mục lục</h3>
+        <button class="sidebar-toggle" id="sidebar-toggle" title="Ẩn/hiện mục lục">&#9776;</button>
+      </div>
+      <nav class="sidebar-toc" id="sidebar-toc">
+        <p class="sidebar-loading">Đang tải...</p>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="guide-content" id="guide-content">
+      <div class="guide-loading" id="guide-loading">
+        <div class="loading-spinner"></div>
+        <p>Đang tải tài liệu...</p>
+      </div>
+      <article class="guide-article" id="guide-article"></article>
+    </main>
+  </div>
+
+  <footer class="footer guide-footer">
+    <div>Bộ tài liệu ôn thi CKA &bull; Theo đề cương CNCF &bull; Kubernetes v1.35</div>
+    <div class="footer-credit">Tài liệu cộng đồng, không phải tài liệu chính thức của CNCF/Linux Foundation &bull; Tác giả gốc: <strong>Compufreq</strong> &bull; 23/02/2026 &bull; Bản tiếng Việt cập nhật 17/09/2026</div>
+  </footer>
+
+  <script src="../lib/marked.min.js?v=vi-1.35-20260917"></script>
+  <script src="../js/markdown.js?v=vi-1.35-20260917"></script>
+  <script src="../js/guide.js?v=vi-1.35-20260917"></script>
+  <script src="../js/guide-search.js?v=vi-1.35-20260917"></script>
+  <script>
+    (function() {
+      var btn = document.getElementById('guides-dropdown-btn');
+      var dropdown = document.getElementById('guides-dropdown');
+      if (!btn || !dropdown) return;
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+      });
+      document.addEventListener('click', function() {
+        dropdown.classList.remove('open');
+      });
+    })();
+  </script>
+</body>
+</html>
