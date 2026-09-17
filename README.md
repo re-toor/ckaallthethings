@@ -100,8 +100,8 @@ python tools/render-pdfs.py
 
 Script xuất lại hai PDF trong `guides/` từ Markdown hiện tại. Sau mỗi lần sửa nội dung, kiểm tra bố cục các trang có bảng, sơ đồ và khối lệnh dài.
 
-## Tác giả và giấy phép
+## Author and license
 
 Tác giả gốc: **Alaa Alhorani** ([@compufreq](https://github.com/compufreq)), tháng 2/2026. Bản tiếng Việt và cập nhật CKA 1.35: ngày 17/09/2026.
 
-Giữ nguyên [LICENSE](LICENSE): **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International**. Giấy phép cho phép chia sẻ nguyên tác kèm ghi công, không cho phép sử dụng thương mại hoặc phân phối bản sửa đổi theo giấy phép này.
+[LICENSE](LICENSE): **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International**. Giấy phép cho phép chia sẻ nguyên tác kèm ghi công, không cho phép sử dụng thương mại hoặc phân phối bản sửa đổi theo giấy phép này.
